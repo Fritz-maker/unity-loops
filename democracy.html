@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity Loops: Democratic Values - Governing Together</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🗽 Unity Loops: Democratic Values</h1>
+        <p>Governing Together & Individual Liberty</p>
+    </header>
+
+    <main>
+        <div id="perspective-selection">
+            <h2>Choose Your Starting Perspective:</h2>
+            <button id="choose-left" class="perspective-btn">🤝 Collective Responsibility</button>
+            <button id="choose-right" class="perspective-btn">🗳️ Individual Liberty</button>
+        </div>
+
+        <div id="progress-indicator">Loop: <span id="current-loop">Democratic Values</span></div>
+        <div id="unlock-status" class="hidden"></div>
+
+        <section id="content-area">
+            <div id="content-display">
+                <p class="placeholder-text">Choose your perspective to begin exploring democratic values...</p>
+            </div>
+            <div id="bridge-commentary">
+                <p class="placeholder-text">The Bridge observes: Choose your perspective to begin...</p>
+            </div>
+        </section>
+
+        <section id="controls-and-score">
+            <button id="next-button">Explore the Next Perspective</button>
+            <div id="current-score">Score: 0</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Unity Loops</p>
+    </footer>
+
+    <!-- Load content first, then game logic -->
+    <script src="content/loop6_content.js"></script>
+    <script src="js/game_logic.js"></script>
+</body>
+</html>

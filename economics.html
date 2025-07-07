@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity Loops: Economic Policy - Markets & Government</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>💰 Unity Loops: Economic Policy</h1>
+        <p>Free Markets vs Government Intervention</p>
+    </header>
+
+    <main>
+        <div id="perspective-selection">
+            <h2>Choose Your Starting Perspective:</h2>
+            <button id="choose-left" class="perspective-btn">🏛️ Government Intervention</button>
+            <button id="choose-right" class="perspective-btn">📈 Free Market</button>
+        </div>
+
+        <div id="progress-indicator">Loop: <span id="current-loop">Economic Policy</span></div>
+        <div id="unlock-status" class="hidden"></div>
+
+        <section id="content-area">
+            <div id="content-display">
+                <p class="placeholder-text">Choose your perspective to begin exploring economic policy...</p>
+            </div>
+            <div id="bridge-commentary">
+                <p class="placeholder-text">The Bridge observes: Choose your perspective to begin...</p>
+            </div>
+        </section>
+
+        <section id="controls-and-score">
+            <button id="next-button">Explore the Next Perspective</button>
+            <div id="current-score">Score: 0</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Unity Loops</p>
+    </footer>
+
+    <!-- Load content first, then game logic -->
+    <script src="content/economics_content.js"></script>
+    <script src="js/game_logic.js"></script>
+</body>
+</html>

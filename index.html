@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity Loops - Bridge Political Divides Through Understanding</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #4a5568;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #4a5568;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #667eea;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 6rem 0;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero .subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .hero .description {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            opacity: 0.85;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #48bb78;
+            color: white;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(72, 187, 120, 0.3);
+        }
+
+        .cta-button:hover {
+            background: #38a169;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(72, 187, 120, 0.4);
+        }
+
+        .features {
+            background: white;
+            padding: 6rem 0;
+        }
+
+        .features h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2d3748;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .feature-card {
+            background: #f7fafc;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            border: 1px solid #e2e8f0;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: #2d3748;
+        }
+
+        .loops-section {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 6rem 0;
+            color: white;
+        }
+
+        .loops-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .loops-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .loop-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .loop-card:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+        }
+
+        .loop-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .how-it-works {
+            background: white;
+            padding: 6rem 0;
+        }
+
+        .how-it-works h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2d3748;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .step {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .step-number {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            line-height: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .quote-section {
+            background: #2d3748;
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .quote {
+            font-size: 1.5rem;
+            font-style: italic;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+        }
+
+        .quote-author {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+
+        footer {
+            background: #1a202c;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">🌉 Unity Loops</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#loops">Explore Loops</a></li>
+                <li><a href="#how">How It Works</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>🌉 Unity Loops</h1>
+            <p class="subtitle">Bridge Political Divides Through Understanding</p>
+            <p class="description">
+                Step into the shoes of different political perspectives and discover the complexity behind today's most pressing issues. 
+                Unity Loops isn't about changing your mind—it's about expanding it.
+            </p>
+            <a href="immigration.html" class="cta-button">Begin Your Journey</a>
+        </div>
+    </section>
+
+    <section class="features" id="about">
+        <div class="container">
+            <h2>Why Unity Loops?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎭</div>
+                    <h3>Perspective Taking</h3>
+                    <p>Choose a political stance and explore issues through that lens. Experience how different values and priorities shape policy positions on complex topics.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌉</div>
+                    <h3>Bridge Building</h3>
+                    <p>Our AI moderator, "The Bridge," provides balanced commentary that helps you understand why reasonable people disagree on important issues.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Research-Driven</h3>
+                    <p>All content is based on current research, real data, and expert analysis. Learn the facts behind the debates shaping our democracy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Interactive Learning</h3>
+                    <p>Engage with true/false questions, multiple choice scenarios, real-world case studies, and video content that brings issues to life.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Progressive Complexity</h3>
+                    <p>Start with fundamental concepts and build toward sophisticated policy analysis. Each loop deepens your understanding of democratic governance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Civic Education</h3>
+                    <p>Develop the critical thinking skills needed for democratic citizenship. Learn to evaluate sources, understand trade-offs, and engage constructively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="loops-section" id="loops">
+        <div class="container">
+            <h2>Explore Six Critical Policy Areas</h2>
+            <div class="loops-grid">
+                <div class="loop-card">
+                    <h3>🗺️ Immigration</h3>
+                    <p>Navigate the tension between humanitarian compassion and border security. Explore asylum policies, economic impacts, and integration challenges.</p>
+                </div>
+                <div class="loop-card">
+                    <h3>🏥 Healthcare</h3>
+                    <p>Examine universal coverage versus market solutions. Understand how different approaches balance access, quality, and cost in healthcare delivery.</p>
+                </div>
+                <div class="loop-card">
+                    <h3>🌱 Climate Action</h3>
+                    <p>Weigh environmental protection against economic priorities. Explore how societies can address climate change while maintaining prosperity.</p>
+                </div>
+                <div class="loop-card">
+                    <h3>⚖️ Criminal Justice</h3>
+                    <p>Balance reform and rehabilitation with law and order. Investigate approaches to crime prevention, punishment, and community safety.</p>
+                </div>
+                <div class="loop-card">
+                    <h3>💰 Economic Policy</h3>
+                    <p>Compare government intervention with free market approaches. Understand how different economic philosophies address inequality and growth.</p>
+                </div>
+                <div class="loop-card">
+                    <h3>🗽 Democratic Values</h3>
+                    <p>Explore collective responsibility versus individual liberty. Discover how democratic societies balance competing values and interests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how">
+        <div class="container">
+            <h2>How Unity Loops Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Choose Your Perspective</h3>
+                    <p>Select a political stance to explore—not necessarily your own views, but one you want to understand better.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Engage with Content</h3>
+                    <p>Answer questions, read case studies, and watch videos that present issues from your chosen perspective.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Bridge Understanding</h3>
+                    <p>Receive thoughtful commentary that helps you see the logic and values underlying different political positions.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Unlock New Loops</h3>
+                    <p>Earn points through engagement to access more complex policy areas and advance your civic education.</p>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <a href="immigration.html" class="cta-button">Start with Immigration Policy</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <div class="container">
+            <p class="quote">
+                "Democracy requires the ability to disagree while maintaining respect. Unity Loops teaches us that understanding different perspectives doesn't mean abandoning our values—it means strengthening our democracy."
+            </p>
+            <p class="quote-author">— The Bridge</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Unity Loops. Building bridges through understanding.</p>
+            <p style="margin-top: 1rem; opacity: 0.7;">
+                "The conversation becomes eternal when we commit to listening as much as we speak."
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

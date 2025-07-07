@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity Loops: Healthcare - Life, Death, and the Price of Care</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --loop-theme-color: hsl(340, 60%, 50%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🏥 Unity Loops: Healthcare</h1>
+        <p>Life, Death, and the Price of Care</p>
+    </header>
+
+    <main>
+        <div id="perspective-selection">
+            <h2>Choose Your Starting Perspective:</h2>
+            <button id="choose-left" class="perspective-btn">🏥 Universal Healthcare</button>
+            <button id="choose-right" class="perspective-btn">💼 Market Solutions</button>
+        </div>
+
+        <div id="progress-indicator">Loop: <span id="current-loop">Healthcare</span></div>
+        <div id="unlock-status" class="hidden"></div>
+
+        <section id="content-area">
+            <div id="content-display">
+                <p class="placeholder-text">Choose your perspective to begin exploring healthcare policy...</p>
+            </div>
+            <div id="bridge-commentary">
+                <p class="placeholder-text">The Bridge observes: Where life meets economics, two visions collide...</p>
+            </div>
+        </section>
+
+        <section id="controls-and-score">
+            <button id="next-button">Explore the Next Perspective</button>
+            <div id="current-score">Score: 0</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Unity Loops</p>
+    </footer>
+
+    <!-- Load content first, then game logic -->
+    <script src="content/healthcare_content.js"></script>
+    <script src="js/game_logic.js"></script>
+</body>
+</html>
