@@ -17,7 +17,7 @@ const immigrationContent = [
         value: 16,
         correct_feedback: "True! This is unprecedented since census data began in 1850, reflecting declining US birth rates.",
         incorrect_feedback: "Actually, immigration drove all population growth in 2022-2023 for the first time in over 170 years.",
-        bridge_commentary: "This historic shift shows how immigration has become essential for America's demographic sustainability."
+        bridge_commentary: "This historic shift shows how immigration has become essential for America\'s demographic sustainability."
     },
     {
         type: "tf_question",
@@ -107,7 +107,7 @@ const immigrationContent = [
         value: 16,
         correct_feedback: "True. Immigrants make up a vital part of the labor market in industries like agriculture, construction, and healthcare, addressing shortages.",
         incorrect_feedback: "Yes, immigrants play a crucial role in filling labor gaps across various essential industries in the U.S.",
-        bridge_commentary: "Understanding labor market needs reveals how immigration is deeply intertwined with America's economic functionality."
+        bridge_commentary: "Understanding labor market needs reveals how immigration is deeply intertwined with America\'s economic functionality."
     },
     {
         type: "tf_question",
@@ -806,7 +806,7 @@ const immigrationContent = [
     {
         type: "factoid",
         stance: "humanitarian",
-        text: "With US birth rates below replacement level, immigration is the only reason America's population continues growing, preventing the aging crisis facing countries like Japan.",
+        text: "With US birth rates below replacement level, immigration is the only reason America\'s population continues growing, preventing the aging crisis facing countries like Japan.",
         value: 16,
         bridge_commentary: "Demographic trends suggest immigration may be essential for maintaining economic growth and supporting social programs."
     },
@@ -815,7 +815,7 @@ const immigrationContent = [
         stance: "humanitarian",
         text: "Since 2000, immigrants have won 38% of Nobel Prizes awarded to Americans, demonstrating the global talent that immigration brings to US research and innovation.",
         value: 17,
-        bridge_commentary: "Scientific achievement patterns suggest that immigration enhances America's competitive edge in the global knowledge economy."
+        bridge_commentary: "Scientific achievement patterns suggest that immigration enhances America\'s competitive edge in the global knowledge economy."
     },
     {
         type: "factoid",
