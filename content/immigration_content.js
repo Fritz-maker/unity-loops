@@ -87,7 +87,7 @@ const immigrationContent = [
         value: 18,
         correct_feedback: "True. Rising sea levels, droughts, and extreme weather are creating new forms of displacement.",
         incorrect_feedback: "Climate displacement is a growing reality that will likely increase migration pressures globally.",
-        bridge_commentary: "Climate migration presents new challenges that traditional immigration frameworks weren't designed to handle."
+        bridge_commentary: "Climate migration presents new challenges that traditional immigration frameworks weren\'t designed to handle."
     },
     {
         type: "tf_question",
@@ -219,7 +219,7 @@ const immigrationContent = [
         value: 15,
         correct_feedback: "True. Document fraud undermines security screening and harms legal immigrants whose identities may be stolen.",
         incorrect_feedback: "Document fraud is indeed a serious concern that affects immigration system integrity.",
-        bridge_commentary: "Security concerns about fraud affect everyone's confidence in the immigration system's integrity."
+        bridge_commentary: "Security concerns about fraud affect everyone's confidence in the immigration system\'s integrity."
     },
     {
         type: "tf_question",
@@ -294,7 +294,7 @@ const immigrationContent = [
     {
         type: "tf_question",
         stance: "security_first",
-        question: "The U.S. immigration system's current complexities are primarily due to insufficient infrastructure rather than changes in migration patterns.",
+        question: "The U.S. immigration system\'s current complexities are primarily due to insufficient infrastructure rather than changes in migration patterns.",
         correct_answer: false,
         value: 16,
         correct_feedback: "False. Over the past decade, there has been a fundamental change in migration patterns, leading to greater displacement and placing significant strain on the outdated immigration system.",
@@ -778,7 +778,7 @@ const immigrationContent = [
         value: 21,
         correct_feedback: "Correct! Extreme heat, water shortages, and rising sea levels are making certain regions in the U.S. increasingly difficult to live in, leading to population decline.",
         incorrect_feedback: "Climate change impacts, such as severe weather and resource scarcity, are directly contributing to population shifts within the U.S.",
-        bridge_commentary: "Climate change is not just an environmental issue; it's a demographic one, influencing where and how people can live."
+        bridge_commentary: "Climate change is not just an environmental issue; it\'s a demographic one, influencing where and how people can live."
     },
 
     // FACTOIDS - Humanitarian Perspective (5 from original + 2 new = 7 total)
@@ -845,7 +845,7 @@ const immigrationContent = [
         stance: "security_first",
         text: "Immigration courts have over 1.5 million pending cases, with average wait times of 4+ years, undermining both swift justice and deportation effectiveness.",
         value: 15,
-        bridge_commentary: "System backlogs create problems for everyone - those seeking protection can't get quick decisions, and enforcement can't proceed efficiently."
+        bridge_commentary: "System backlogs create problems for everyone - those seeking protection can\'t get quick decisions, and enforcement can\'t proceed efficiently."
     },
     {
         type: "factoid",
