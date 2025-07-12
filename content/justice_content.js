@@ -156,7 +156,7 @@ const justiceContent = [
         correct_answer: false,
         value: 14,
         correct_feedback: "False! Research shows that program participants have genuinely lower recidivism rates, indicating real behavior change.",
-        incorrect_feedback: "If programs were just manipulation, recidivism rates wouldn't actually drop for participants compared to non-participants.",
+        incorrect_feedback: "If programs were just manipulation, recidivism rates wouldn\'t actually drop for participants compared to non-participants.",
         bridge_commentary: "The Bridge observes: Measurable outcomes demonstrate that effective programs create genuine change rather than mere system manipulation."
     },
     {
