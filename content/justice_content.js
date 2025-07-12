@@ -588,7 +588,7 @@ const justiceContent = [
         correct_answer_key: "B",
         value: 18,
         correct_feedback: "Correct! Family-based interventions that address multiple systems show the strongest evidence for reducing youth reoffending.",
-        incorrect_feedback: "Multisystemic therapy demonstrates how addressing root causes in youth's environment prevents future delinquency.",
+        incorrect_feedback: "Multisystemic therapy demonstrates how addressing root causes in youth\'s environment prevents future delinquency.",
         bridge_commentary: "The Bridge observes: Youth intervention research highlights how addressing family and community factors can prevent criminal career development."
     },
     {
