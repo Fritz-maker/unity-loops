@@ -960,7 +960,7 @@ const immigrationContent = [
     {
         type: "factoid",
         stance: "security_first",
-        text: "A recent report from a border town mayor stated, 'Our local resources are stretched thin by the influx, demonstrating the urgent need for federal funding to support critical services, not just enforcement.'",
+        text: "A recent report from a border town mayor stated, \'Our local resources are stretched thin by the influx, demonstrating the urgent need for federal funding to support critical services, not just enforcement.\'",
         value: 17,
         bridge_commentary: "Local community perspectives emphasize the significant strain on services and the necessity of comprehensive federal support for border regions, moving beyond a narrow focus on security."
     }
