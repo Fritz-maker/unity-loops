@@ -57,7 +57,7 @@ const economicContent = [
         value: 17,
         correct_feedback: "Correct! The US spends about 18% of GDP on healthcare while achieving worse outcomes than many countries spending 10-11%.",
         incorrect_feedback: "US healthcare costs are indeed exceptionally high relative to outcomes compared to other developed nations.",
-        bridge_commentary: "Healthcare economics illustrates how market efficiency doesn't always translate to cost effectiveness or better results."
+        bridge_commentary: "Healthcare economics illustrates how market efficiency doesn\'t always translate to cost effectiveness or better results."
     },
     {
         type: "tf_question",
@@ -504,7 +504,7 @@ const economicContent = [
         },
         correct_answer_key: "B",
         value: 17,
-        correct_feedback: "Correct! Small business growth requires both public infrastructure and smart regulation that doesn't burden startups.",
+        correct_feedback: "Correct! Small business growth requires both public infrastructure and smart regulation that doesn\'t burden startups.",
         incorrect_feedback: "Entrepreneurship thrives with supportive infrastructure and regulations that enable rather than obstruct business formation.",
         bridge_commentary: "Small business policy shows how government can create conditions for market success rather than replacing markets."
     },
@@ -585,7 +585,7 @@ const economicContent = [
         correct_answer_key: "C",
         value: 17,
         correct_feedback: "Correct! This is a negative externality, a common market failure that often warrants government intervention through regulations or taxes.",
-        incorrect_feedback: "When private activities impose uncompensated costs on third parties or society, it's known as a negative externality.",
+        incorrect_feedback: "When private activities impose uncompensated costs on third parties or society, it\'s known as a negative externality.",
         bridge_commentary: "Externalities highlight the broader societal impacts of economic activities beyond individual transactions."
     },
     {
@@ -853,7 +853,7 @@ const economicContent = [
     {
         type: "factoid",
         stance: "government_intervention",
-        text: "Worker productivity has increased 72% since 1973, but wages have grown only 13%, showing that growth doesn't automatically benefit workers.",
+        text: "Worker productivity has increased 72% since 1973, but wages have grown only 13%, showing that growth doesn\'t automatically benefit workers.",
         value: 15,
         bridge_commentary: "Productivity and wage data illustrate how economic growth and worker benefits can become disconnected without policy intervention."
     },
