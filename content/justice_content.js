@@ -16,7 +16,7 @@ const justiceContent = [
         correct_answer: true,
         value: 16,
         correct_feedback: "Correct! Federal investment in evidence-based reentry programs across 48 states has dramatically reduced repeat incarceration.",
-        incorrect_feedback: "Actually, the Second Chance Act's 1,200+ grantees serving over 400,000 people demonstrate rehabilitation's measurable effectiveness.",
+        incorrect_feedback: "Actually, the Second Chance Act\'s 1,200+ grantees serving over 400,000 people demonstrate rehabilitation\'s measurable effectiveness.",
         bridge_commentary: "The Bridge observes: Bipartisan federal investment in reentry programs shows how evidence-based policy can achieve public safety goals through rehabilitation."
     },
     {
