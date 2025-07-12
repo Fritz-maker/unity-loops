@@ -354,11 +354,11 @@ const immigrationContent = [
     {
         type: "tf_question",
         stance: "security_first",
-        question: "The 'Remain in Mexico' policy was a new initiative introduced in 2025 to control border crossings.",
+        question: "The \'Remain in Mexico\' policy was a new initiative introduced in 2025 to control border crossings.",
         correct_answer: false,
         value: 16,
-        correct_feedback: "False. The 'Remain in Mexico' policy (Migrant Protection Protocols) was reinstated or changed in treatment in earlier years, not newly introduced in 2025.",
-        incorrect_feedback: "The 'Remain in Mexico' policy is not a new concept; it has been part of border policy discussions and implementations in prior years.",
+        correct_feedback: "False. The \'Remain in Mexico\' policy (Migrant Protection Protocols) was reinstated or changed in treatment in earlier years, not newly introduced in 2025.",
+        incorrect_feedback: "The \'Remain in Mexico\' policy is not a new concept; it has been part of border policy discussions and implementations in prior years.",
         bridge_commentary: "Understanding the history of border policies helps clarify current debates and their potential impacts."
     },
 
