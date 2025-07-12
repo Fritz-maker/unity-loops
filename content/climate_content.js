@@ -26,7 +26,7 @@ const climateContent = [
         correct_answer: false,
         value: 15,
         correct_feedback: "Correct! While EVs have much lower lifetime emissions than gas cars, manufacturing batteries and generating electricity still produce some emissions.",
-        incorrect_feedback: "EVs significantly reduce emissions compared to gas cars, but they're not completely emission-free when considering manufacturing and electricity sources.",
+        incorrect_feedback: "EVs significantly reduce emissions compared to gas cars, but they\'re not completely emission-free when considering manufacturing and electricity sources.",
         bridge_commentary: "The Bridge observes: Understanding the full lifecycle of clean technologies helps make realistic comparisons and drives continued improvements in manufacturing processes."
     },
     {
@@ -75,8 +75,8 @@ const climateContent = [
         question: "TRUE or FALSE: Planting trees can completely solve climate change by absorbing all human-caused CO2 emissions.",
         correct_answer: false,
         value: 14,
-        correct_feedback: "Correct! While forests are important carbon sinks, there isn't enough available land to plant trees that could absorb all our emissions.",
-        incorrect_feedback: "Tree planting is valuable but can't single-handedly solve climate change - we need emission reductions plus natural solutions.",
+        correct_feedback: "Correct! While forests are important carbon sinks, there isn\'t enough available land to plant trees that could absorb all our emissions.",
+        incorrect_feedback: "Tree planting is valuable but can\'t single-handedly solve climate change - we need emission reductions plus natural solutions.",
         bridge_commentary: "The Bridge observes: Natural climate solutions like reforestation are important components of climate action, but must be combined with emissions reductions for maximum effectiveness."
     },
     {
@@ -145,7 +145,7 @@ const climateContent = [
         question: "TRUE or FALSE: Individual actions like recycling and turning off lights have no meaningful impact on global climate change.",
         correct_answer: false,
         value: 15,
-        correct_feedback: "Correct! While individual actions alone aren't sufficient, collective individual action by millions of people can create significant impact.",
+        correct_feedback: "Correct! While individual actions alone aren\'t sufficient, collective individual action by millions of people can create significant impact.",
         incorrect_feedback: "Individual actions matter when adopted at scale - collective behavior change has driven major environmental improvements in the past.",
         bridge_commentary: "The Bridge observes: Individual responsibility and systemic change work together most effectively, with personal actions creating momentum for larger policy changes."
     },
@@ -175,7 +175,7 @@ const climateContent = [
         question: "TRUE or FALSE: All scientists worldwide agree on every detail of climate change predictions and timing.",
         correct_answer: false,
         value: 14,
-        correct_feedback: "Correct! While there's strong consensus that human activities cause climate change, scientists continue to refine predictions about specific impacts and timing.",
+        correct_feedback: "Correct! While there\'s strong consensus that human activities cause climate change, scientists continue to refine predictions about specific impacts and timing.",
         incorrect_feedback: "There's overwhelming scientific consensus on human-caused climate change, but ongoing research continues to improve our understanding of details.",
         bridge_commentary: "The Bridge observes: Scientific consensus on core climate facts provides a solid foundation, while ongoing research helps refine our understanding and responses."
     },
@@ -299,7 +299,7 @@ const climateContent = [
         value: 16,
         correct_feedback: "Correct. The regressive nature of some carbon pricing mechanisms is a key concern for economic equity.",
         incorrect_feedback: "Incorrect. The potential for a carbon tax to impact low-income households is a widely discussed social justice issue.",
-        bridge_commentary: "The Bridge observes: Climate policies need to consider economic equity to ensure a just transition that doesn't burden vulnerable populations."
+        bridge_commentary: "The Bridge observes: Climate policies need to consider economic equity to ensure a just transition that doesn\'t burden vulnerable populations."
     },
     {
         type: "tf_question",
@@ -354,7 +354,7 @@ const climateContent = [
     {
         type: "tf_question",
         stance: "economic_priorities",
-        question: "TRUE or FALSE: Climate change will have no economic impacts and won't affect business operations or investments.",
+        question: "TRUE or FALSE: Climate change will have no economic impacts and won\'t affect business operations or investments.",
         correct_answer: false,
         value: 16,
         correct_feedback: "Correct! Climate change poses significant economic risks through extreme weather, supply chain disruptions, and changing consumer demands.",
@@ -436,7 +436,7 @@ const climateContent = [
     {
         type: "tf_question",
         stance: "neutral",
-        question: "TRUE or FALSE: Climate change is only about temperature - it doesn't affect weather patterns, sea levels, or ecosystems.",
+        question: "TRUE or FALSE: Climate change is only about temperature - it doesn\'t affect weather patterns, sea levels, or ecosystems.",
         correct_answer: false,
         value: 17,
         correct_feedback: "Correct! Climate change affects temperature, precipitation, storm intensity, sea levels, ecosystems, agriculture, and human health.",
@@ -919,7 +919,7 @@ const climateContent = [
     {
         type: "factoid",
         stance: "environmental_protection",
-        text: "Community solar projects allow people who can't install rooftop panels to access renewable energy, democratizing clean electricity access.",
+        text: "Community solar projects allow people who can\'t install rooftop panels to access renewable energy, democratizing clean electricity access.",
         value: 16,
         bridge_commentary: "The Bridge observes: Innovative financing and ownership models are making clean energy accessible to broader populations, including renters and low-income households."
     },
