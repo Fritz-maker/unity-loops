@@ -82,7 +82,7 @@ const climateContent = [
     {
         type: "tf_question",
         stance: "environmental_protection",
-        question: "TRUE or FALSE: The Paris Agreement's goal is to limit global warming to well below 2 degrees Celsius, preferably to 1.5 degrees Celsius, compared to pre-industrial levels.",
+        question: "TRUE or FALSE: The Paris Agreement\'s goal is to limit global warming to well below 2 degrees Celsius, preferably to 1.5 degrees Celsius, compared to pre-industrial levels.",
         correct_answer: true,
         value: 14,
         correct_feedback: "Correct. The 1.5 degree target is a critical threshold to avoid the most catastrophic impacts of climate change.",
@@ -176,7 +176,7 @@ const climateContent = [
         correct_answer: false,
         value: 14,
         correct_feedback: "Correct! While there\'s strong consensus that human activities cause climate change, scientists continue to refine predictions about specific impacts and timing.",
-        incorrect_feedback: "There's overwhelming scientific consensus on human-caused climate change, but ongoing research continues to improve our understanding of details.",
+        incorrect_feedback: "There\'s overwhelming scientific consensus on human-caused climate change, but ongoing research continues to improve our understanding of details.",
         bridge_commentary: "The Bridge observes: Scientific consensus on core climate facts provides a solid foundation, while ongoing research helps refine our understanding and responses."
     },
     {
@@ -562,7 +562,7 @@ const climateContent = [
     {
         type: "mc_question",
         stance: "environmental_protection",
-        question: "Which of these everyday actions has the largest impact on an individual's carbon footprint?",
+        question: "Which of these everyday actions has the largest impact on an individual\'s carbon footprint?",
         options: {
             "A": "Recycling plastic bottles",
             "B": "Turning off lights when leaving a room",
