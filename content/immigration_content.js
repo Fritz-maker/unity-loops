@@ -946,7 +946,7 @@ const immigrationContent = [
     {
         type: "factoid",
         stance: "security_first",
-        text: "Border Patrol Agent John Rodriguez says 'I see the human side every day - families seeking help and criminals exploiting them. We need both compassion and strong enforcement to protect everyone.'",
+        text: "Border Patrol Agent John Rodriguez says \'I see the human side every day - families seeking help and criminals exploiting them. We need both compassion and strong enforcement to protect everyone.\'",
         value: 17,
         bridge_commentary: "Frontline enforcement perspectives reveal the complexity of border reality beyond simple enforcement versus humanitarian narratives."
     },
