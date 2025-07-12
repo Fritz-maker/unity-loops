@@ -287,7 +287,7 @@ const immigrationContent = [
         question: "Mass deportation policies have been shown to consistently lead to increased wages and job opportunities for U.S.-born workers.",
         correct_answer: false,
         value: 17,
-        correct_feedback: "False. Research from Trump's first term indicates that previous mass deportations did *not* lead to increased wages or job opportunities for U.S.-born workers; instead, they sometimes lowered wages and contributed to job losses.",
+        correct_feedback: "False. Research from Trump\'s first term indicates that previous mass deportations did *not* lead to increased wages or job opportunities for U.S.-born workers; instead, they sometimes lowered wages and contributed to job losses.",
         incorrect_feedback: "Economic research suggests that mass deportations do not necessarily translate to improved labor market outcomes for native-born workers.",
         bridge_commentary: "The economic impacts of mass deportation are complex and often counterintuitive, affecting various sectors of the economy."
     },
