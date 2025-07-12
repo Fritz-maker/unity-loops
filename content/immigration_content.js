@@ -536,7 +536,7 @@ const immigrationContent = [
         },
         correct_answer_key: "B",
         value: 22,
-        correct_feedback: "Correct! Immigrants comprised 14.3% of the population and accounted for almost two-fifths of the country's five-year population growth in 2023.",
+        correct_feedback: "Correct! Immigrants comprised 14.3% of the population and accounted for almost two-fifths of the country\'s five-year population growth in 2023.",
         incorrect_feedback: "Immigrants made up 14.3% of the U.S. population and contributed significantly to recent population growth.",
         bridge_commentary: "Demographic data highlights the critical role of immigration in maintaining and growing the U.S. population."
     },
