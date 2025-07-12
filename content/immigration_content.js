@@ -820,7 +820,7 @@ const immigrationContent = [
     {
         type: "factoid",
         stance: "humanitarian",
-        text: "In 2023, immigrants comprised 28.4% of the nation's health aides and 15.9% of its nurses, filling critical staffing shortages in the healthcare industry.",
+        text: "In 2023, immigrants comprised 28.4% of the nation\'s health aides and 15.9% of its nurses, filling critical staffing shortages in the healthcare industry.",
         value: 15,
         bridge_commentary: "The reliance on immigrant workers in healthcare underscores their indispensable role in maintaining public health services."
     },
