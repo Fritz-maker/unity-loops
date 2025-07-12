@@ -369,7 +369,7 @@ const justiceContent = [
         value: 18,
         correct_feedback: "Correct! Enhanced monitoring and registration create accountability that protects potential victims from dangerous predators.",
         incorrect_feedback: "Sex offender monitoring demonstrates how enhanced supervision can prevent the most serious crimes against vulnerable victims.",
-        bridge_commentary: "The Bridge observes: Sex offender monitoring reflects society's commitment to protecting the most vulnerable potential victims."
+        bridge_commentary: "The Bridge observes: Sex offender monitoring reflects society\'s commitment to protecting the most vulnerable potential victims."
     },
     {
         type: "tf_question",
@@ -557,7 +557,7 @@ const justiceContent = [
         value: 16,
         correct_feedback: "Correct! Employment provides stability, purpose, and income that dramatically reduce the likelihood of reoffending.",
         incorrect_feedback: "Employment is consistently identified as the strongest predictor of successful reintegration and reduced recidivism.",
-        bridge_commentary: "The Bridge observes: Employment's role in preventing recidivism highlights how economic opportunity can serve both individual and public safety goals."
+        bridge_commentary: "The Bridge observes: Employment\'s role in preventing recidivism highlights how economic opportunity can serve both individual and public safety goals."
     },
     {
         type: "mc_question",
@@ -856,9 +856,9 @@ const justiceContent = [
     {
         type: "factoid",
         stance: "reform_rehabilitation",
-        text: "Portugal's decriminalization of drug use led to a 95% drop in drug-related HIV infections and 80% reduction in drug-related crime within 15 years.",
+        text: "Portugal\'s decriminalization of drug use led to a 95% drop in drug-related HIV infections and 80% reduction in drug-related crime within 15 years.",
         value: 18,
-        bridge_commentary: "The Bridge observes: Portugal's approach demonstrates how treating addiction as a health issue rather than solely a criminal one can improve both individual and public health outcomes."
+        bridge_commentary: "The Bridge observes: Portugal\'s approach demonstrates how treating addiction as a health issue rather than solely a criminal one can improve both individual and public health outcomes."
     },
     {
         type: "factoid",
