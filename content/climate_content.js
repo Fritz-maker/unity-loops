@@ -671,7 +671,7 @@ const climateContent = [
         value: 17,
         correct_feedback: "Correct. Carbon leakage occurs when companies move production to countries with less strict climate policies, shifting emissions rather than reducing them globally.",
         incorrect_feedback: "Incorrect. Carbon leakage describes a specific economic phenomenon related to international climate policy.",
-        bridge_commentary: "The Bridge observes: Addressing carbon leakage concerns is crucial for designing effective global climate policies that don't inadvertently shift emissions or jobs."
+        bridge_commentary: "The Bridge observes: Addressing carbon leakage concerns is crucial for designing effective global climate policies that don\'t inadvertently shift emissions or jobs."
     },
     {
         type: "mc_question",
