@@ -1051,7 +1051,7 @@ const justiceContent = [
         stance: "neutral",
         text: "Cost-benefit analyses show that every dollar invested in evidence-based crime prevention saves $7 in criminal justice and victim costs.",
         value: 18,
-        bridge_commentary: "The Bridge observes: Prevention-focused investments demonstrate how addressing crime's root causes can benefit both public safety and fiscal responsibility."
+        bridge_commentary: "The Bridge observes: Prevention-focused investments demonstrate how addressing crime\'s root causes can benefit both public safety and fiscal responsibility."
     }
 ];
 
