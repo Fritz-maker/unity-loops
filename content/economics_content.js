@@ -152,12 +152,12 @@ const economicContent = [
     {
         type: "tf_question",
         stance: "government_intervention",
-        question: "The 'Too Big to Fail' problem, where large financial institutions pose systemic risks, has been fully resolved by post-2008 financial reforms.",
+        question: "The \'Too Big to Fail\' problem, where large financial institutions pose systemic risks, has been fully resolved by post-2008 financial reforms.",
         correct_answer: false,
         value: 17,
-        correct_feedback: "False. Many economists and policymakers argue that while Dodd-Frank reforms helped, the 'Too Big to Fail' problem persists, and some financial institutions remain capable of destabilizing the entire economy.",
+        correct_feedback: "False. Many economists and policymakers argue that while Dodd-Frank reforms helped, the \'Too Big to Fail\' problem persists, and some financial institutions remain capable of destabilizing the entire economy.",
         incorrect_feedback: "Despite reforms, concerns remain that some financial institutions are still too large and interconnected to fail without major economic disruption.",
-        bridge_commentary: "The ongoing debate over 'Too Big to Fail' reflects the challenge of balancing financial stability with market freedom."
+        bridge_commentary: "The ongoing debate over \'Too Big to Fail\' reflects the challenge of balancing financial stability with market freedom."
     },
     {
         type: "tf_question",
@@ -335,10 +335,10 @@ const economicContent = [
     {
         type: "tf_question",
         stance: "free_market",
-        question: "The 'sharing economy' platforms like Airbnb and Uber are universally praised by economists for their efficiency without any negative impacts on traditional industries or labor.",
+        question: "The \'sharing economy\' platforms like Airbnb and Uber are universally praised by economists for their efficiency without any negative impacts on traditional industries or labor.",
         correct_answer: false,
         value: 16,
-        correct_feedback: "False. While praised for efficiency, 'sharing economy' platforms have also raised concerns among economists and policymakers regarding labor rights, regulatory arbitrage, and impact on traditional industries.",
+        correct_feedback: "False. While praised for efficiency, \'sharing economy\' platforms have also raised concerns among economists and policymakers regarding labor rights, regulatory arbitrage, and impact on traditional industries.",
         incorrect_feedback: "Sharing economy platforms have brought both significant efficiencies and complex challenges regarding labor and regulation.",
         bridge_commentary: "New economic models often present a mix of benefits and challenges, requiring careful evaluation of their broader societal impacts."
     },
@@ -650,12 +650,12 @@ const economicContent = [
         value: 17,
         correct_feedback: "Correct! Failure allows for creative destruction, where inefficient firms are replaced by more efficient and innovative ones, leading to stronger long-term economic health.",
         incorrect_feedback: "The ability of businesses to fail is a crucial component of a dynamic market economy, fostering efficiency and innovation.",
-        bridge_commentary: "The concept of 'creative destruction' highlights how economic change, even painful, can lead to progress."
+        bridge_commentary: "The concept of \'creative destruction\' highlights how economic change, even painful, can lead to progress."
     },
     {
         type: "mc_question",
         stance: "neutral",
-        question: "Which of the following is an example of 'monetary policy' typically implemented by a central bank?",
+        question: "Which of the following is an example of \'monetary policy\' typically implemented by a central bank?",
         options: {
             "A": "Government spending on infrastructure projects",
             "B": "Changes in income tax rates",
@@ -687,7 +687,7 @@ const economicContent = [
     {
         type: "mc_question",
         stance: "free_market",
-        question: "What is the concept of 'moral hazard' in economics, often associated with government bailouts?",
+        question: "What is the concept of \'moral hazard\' in economics, often associated with government bailouts?",
         options: {
             "A": "When individuals or institutions take fewer risks knowing they will be protected from the consequences of those risks.",
             "B": "When individuals or institutions take more risks knowing they will be protected from the consequences of those risks.",
@@ -735,7 +735,7 @@ const economicContent = [
     {
         type: "mc_question",
         stance: "free_market",
-        question: "What is the concept of 'creative destruction' in economics?",
+        question: "What is the concept of \'creative destruction\' in economics?",
         options: {
             "A": "The destruction of old industries and jobs without replacement.",
             "B": "The process by which new innovations and industries replace outdated ones, leading to economic growth.",
