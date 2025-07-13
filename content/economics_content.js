@@ -607,7 +607,7 @@ const economicContent = [
     {
         type: "mc_question",
         stance: "neutral",
-        question: "Which economic indicator is most commonly used to measure the overall health and growth of a country's economy?",
+        question: "Which economic indicator is most commonly used to measure the overall health and growth of a country\'s economy?",
         options: {
             "A": "Unemployment Rate",
             "B": "Inflation Rate",
