@@ -617,7 +617,7 @@ const economicContent = [
         correct_answer_key: "C",
         value: 16,
         correct_feedback: "Correct! GDP is the most widely used measure of a country's total economic output and serves as a key indicator of economic health.",
-        incorrect_feedback: "While other indicators are important, Gross Domestic Product (GDP) provides the broadest measure of a nation's economic activity.",
+        incorrect_feedback: "While other indicators are important, Gross Domestic Product (GDP) provides the broadest measure of a nation\'s economic activity.",
         bridge_commentary: "Economic indicators provide a snapshot of a country's performance, but a holistic view requires considering multiple data points."
     },
     {
