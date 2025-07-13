@@ -125,7 +125,7 @@ const immigrationContent = [
         question: "Social support networks among immigrants are a fundamental dimension for their successful social integration.",
         correct_answer: true,
         value: 15,
-        correct_feedback: "True. Studies confirm that strong social support networks enhance immigrants' experience of community and provide essential assistance, promoting integration.",
+        correct_feedback: "True. Studies confirm that strong social support networks enhance immigrants\' experience of community and provide essential assistance, promoting integration.",
         incorrect_feedback: "Research indicates that social networks are indeed crucial for the social integration and well-being of immigrants.",
         bridge_commentary: "Community bonds and mutual support are powerful forces in helping newcomers thrive in a new land."
     },
@@ -162,11 +162,11 @@ const immigrationContent = [
     {
         type: "tf_question",
         stance: "humanitarian",
-        question: "The U.S. Refugee Admissions Program's funding has recently seen proposed increases to support refugee protection and resettlement efforts.",
+        question: "The U.S. Refugee Admissions Program\'s funding has recently seen proposed increases to support refugee protection and resettlement efforts.",
         correct_answer: false,
         value: 17,
-        correct_feedback: "False. The White House has formally requested over $800 million in cuts from the State Department's Migration and Refugee Assistance budget, which funds the U.S. Refugee Admissions Program.",
-        incorrect_feedback: "Recent proposals actually indicate significant cuts to the U.S. Refugee Admissions Program's budget.",
+        correct_feedback: "False. The White House has formally requested over $800 million in cuts from the State Department\'s Migration and Refugee Assistance budget, which funds the U.S. Refugee Admissions Program.",
+        incorrect_feedback: "Recent proposals actually indicate significant cuts to the U.S. Refugee Admissions Program\'s budget.",
         bridge_commentary: "Budgetary decisions reflect shifts in national priorities regarding humanitarian aid and refugee support."
     },
     {
@@ -177,7 +177,7 @@ const immigrationContent = [
         value: 16,
         correct_feedback: "True. The CBP One app was a key tool during the Biden administration for humanitarian migrants to seek entry and schedule appointments for credible fear claims.",
         incorrect_feedback: "Yes, the CBP One app was specifically designed to streamline the process for certain asylum-seekers to enter at ports of entry.",
-        bridge_commentary: "Technology's role in managing migration flows can be a point of both efficiency and contention."
+        bridge_commentary: "Technology\'s role in managing migration flows can be a point of both efficiency and contention."
     },
     {
         type: "tf_question",
@@ -308,7 +308,7 @@ const immigrationContent = [
         correct_answer: false,
         value: 18,
         correct_feedback: "False. Project 2025 calls for rule changes that would dramatically *reduce* the number of H-1 and H-2 temporary visas issued.",
-        incorrect_feedback: "Project 2025's blueprint actually suggests a substantial reduction in temporary visa programs.",
+        incorrect_feedback: "Project 2025\'s blueprint actually suggests a substantial reduction in temporary visa programs.",
         bridge_commentary: "Policy blueprints can signal significant shifts in immigration priorities, impacting various aspects of the system."
     },
     {
@@ -328,7 +328,7 @@ const immigrationContent = [
         correct_answer: false,
         value: 16,
         correct_feedback: "False. Collaborative public-private programs under CBP are focused on infrastructure improvements, non-intrusive inspection technologies, and mobile biometric and inspection solutions, not just physical walls.",
-        incorrect_feedback: "CBP's public-private initiatives are more broadly focused on technology and infrastructure improvements beyond just physical barriers.",
+        incorrect_feedback: "CBP\'s public-private initiatives are more broadly focused on technology and infrastructure improvements beyond just physical barriers.",
         bridge_commentary: "Modern border security strategies often involve a multi-faceted approach, combining various tools and partnerships."
     },
     {
@@ -745,7 +745,7 @@ const immigrationContent = [
         correct_answer_key: "D",
         value: 20,
         correct_feedback: "Correct! While CBP is investing heavily in technology, there is no plan to eliminate all human agents; rather, technology will support and optimize their operations.",
-        incorrect_feedback: "CBP's technological advancements aim to enhance, not replace, the role of human agents in border security.",
+        incorrect_feedback: "CBP\'s technological advancements aim to enhance, not replace, the role of human agents in border security.",
         bridge_commentary: "The future of border security lies in a synergy between advanced technology and skilled human professionals."
     },
     {
