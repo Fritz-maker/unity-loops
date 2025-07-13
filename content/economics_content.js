@@ -958,7 +958,7 @@ const economicContent = [
     {
         type: "factoid",
         stance: "neutral",
-        text: "The 'gig economy' comprises over one-third of the U.S. workforce, posing new challenges and opportunities for both labor regulations and business models.",
+        text: "The \'gig economy\' comprises over one-third of the U.S. workforce, posing new challenges and opportunities for both labor regulations and business models.",
         value: 13,
         bridge_commentary: "The rise of the gig economy necessitates new approaches to understanding labor, benefits, and market structures."
     },
@@ -974,7 +974,7 @@ const economicContent = [
         stance: "free_market",
         text: "Venture capital investment in artificial intelligence (AI) startups reached a record $27 billion in 2023, showcasing private sector leadership in emerging technologies.",
         value: 17,
-        bridge_commentary: "AI's rapid growth demonstrates how private investment and entrepreneurial risk-taking are driving the next wave of technological innovation."
+        bridge_commentary: "AI\'s rapid growth demonstrates how private investment and entrepreneurial risk-taking are driving the next wave of technological innovation."
     }
 ];
 
