@@ -227,7 +227,7 @@ const justiceContent = [
         question: "TRUE or FALSE: Violent crime rates fell dramatically from 1993-2010 during a period of increased incarceration and enhanced penalties.",
         correct_answer: true,
         value: 18,
-        correct_feedback: "Correct! The \'Great Crime Decline\' coincided with policies emphasizing deterrence and incapacitation of repeat offenders.",
+        correct_feedback: "Correct! The \\'Great Crime Decline\\' coincided with policies emphasizing deterrence and incapacitation of repeat offenders.",
         incorrect_feedback: "Historical data shows the strongest correlation between enhanced enforcement and reduced violent crime rates.",
         bridge_commentary: "The Bridge observes: The crime decline of the 1990s-2000s involved multiple factors, with enhanced enforcement playing a significant role."
     },
