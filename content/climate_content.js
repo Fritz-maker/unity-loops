@@ -26,7 +26,7 @@ const climateContent = [
         correct_answer: false,
         value: 15,
         correct_feedback: "Correct! While EVs have much lower lifetime emissions than gas cars, manufacturing batteries and generating electricity still produce some emissions.",
-        incorrect_feedback: "EVs significantly reduce emissions compared to gas cars, but they\'re not completely emission-free when considering manufacturing and electricity sources.",
+        incorrect_feedback: "EVs significantly reduce emissions compared to gas cars, but they\\'re not completely emission-free when considering manufacturing and electricity sources.",
         bridge_commentary: "The Bridge observes: Understanding the full lifecycle of clean technologies helps make realistic comparisons and drives continued improvements in manufacturing processes."
     },
     {
@@ -82,7 +82,7 @@ const climateContent = [
     {
         type: "tf_question",
         stance: "environmental_protection",
-        question: "TRUE or FALSE: The Paris Agreement\'s goal is to limit global warming to well below 2 degrees Celsius, preferably to 1.5 degrees Celsius, compared to pre-industrial levels.",
+        question: "TRUE or FALSE: The Paris Agreement\\'s goal is to limit global warming to well below 2 degrees Celsius, preferably to 1.5 degrees Celsius, compared to pre-industrial levels.",
         correct_answer: true,
         value: 14,
         correct_feedback: "Correct. The 1.5 degree target is a critical threshold to avoid the most catastrophic impacts of climate change.",
@@ -175,8 +175,8 @@ const climateContent = [
         question: "TRUE or FALSE: All scientists worldwide agree on every detail of climate change predictions and timing.",
         correct_answer: false,
         value: 14,
-        correct_feedback: "Correct! While there\'s strong consensus that human activities cause climate change, scientists continue to refine predictions about specific impacts and timing.",
-        incorrect_feedback: "There\'s overwhelming scientific consensus on human-caused climate change, but ongoing research continues to improve our understanding of details.",
+        correct_feedback: "Correct! While there\\'s strong consensus that human activities cause climate change, scientists continue to refine predictions about specific impacts and timing.",
+        incorrect_feedback: "There\\'s overwhelming scientific consensus on human-caused climate change, but ongoing research continues to improve our understanding of details.",
         bridge_commentary: "The Bridge observes: Scientific consensus on core climate facts provides a solid foundation, while ongoing research helps refine our understanding and responses."
     },
     {
@@ -299,7 +299,7 @@ const climateContent = [
         value: 16,
         correct_feedback: "Correct. The regressive nature of some carbon pricing mechanisms is a key concern for economic equity.",
         incorrect_feedback: "Incorrect. The potential for a carbon tax to impact low-income households is a widely discussed social justice issue.",
-        bridge_commentary: "The Bridge observes: Climate policies need to consider economic equity to ensure a just transition that doesn\'t burden vulnerable populations."
+        bridge_commentary: "The Bridge observes: Climate policies need to consider economic equity to ensure a just transition that doesn\\'t burden vulnerable populations."
     },
     {
         type: "tf_question",
@@ -354,7 +354,7 @@ const climateContent = [
     {
         type: "tf_question",
         stance: "economic_priorities",
-        question: "TRUE or FALSE: Climate change will have no economic impacts and won\'t affect business operations or investments.",
+        question: "TRUE or FALSE: Climate change will have no economic impacts and won\\'t affect business operations or investments.",
         correct_answer: false,
         value: 16,
         correct_feedback: "Correct! Climate change poses significant economic risks through extreme weather, supply chain disruptions, and changing consumer demands.",
@@ -436,7 +436,7 @@ const climateContent = [
     {
         type: "tf_question",
         stance: "neutral",
-        question: "TRUE or FALSE: Climate change is only about temperature - it doesn\'t affect weather patterns, sea levels, or ecosystems.",
+        question: "TRUE or FALSE: Climate change is only about temperature - it doesn\\'t affect weather patterns, sea levels, or ecosystems.",
         correct_answer: false,
         value: 17,
         correct_feedback: "Correct! Climate change affects temperature, precipitation, storm intensity, sea levels, ecosystems, agriculture, and human health.",
@@ -562,7 +562,7 @@ const climateContent = [
     {
         type: "mc_question",
         stance: "environmental_protection",
-        question: "Which of these everyday actions has the largest impact on an individual\'s carbon footprint?",
+        question: "Which of these everyday actions has the largest impact on an individual\\'s carbon footprint?",
         options: {
             "A": "Recycling plastic bottles",
             "B": "Turning off lights when leaving a room",
@@ -671,7 +671,7 @@ const climateContent = [
         value: 17,
         correct_feedback: "Correct. Carbon leakage occurs when companies move production to countries with less strict climate policies, shifting emissions rather than reducing them globally.",
         incorrect_feedback: "Incorrect. Carbon leakage describes a specific economic phenomenon related to international climate policy.",
-        bridge_commentary: "The Bridge observes: Addressing carbon leakage concerns is crucial for designing effective global climate policies that don\'t inadvertently shift emissions or jobs."
+        bridge_commentary: "The Bridge observes: Addressing carbon leakage concerns is crucial for designing effective global climate policies that don\\'t inadvertently shift emissions or jobs."
     },
     {
         type: "mc_question",
