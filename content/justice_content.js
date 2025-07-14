@@ -16,7 +16,7 @@ const justiceContent = [
         correct_answer: true,
         value: 16,
         correct_feedback: "Correct! Federal investment in evidence-based reentry programs across 48 states has dramatically reduced repeat incarceration.",
-        incorrect_feedback: "Actually, the Second Chance Act\'s 1,200+ grantees serving over 400,000 people demonstrate rehabilitation\\'s measurable effectiveness.",
+        incorrect_feedback: "Actually, the Second Chance Act\\'s 1,200+ grantees serving over 400,000 people demonstrate rehabilitation\\'s measurable effectiveness.",
         bridge_commentary: "The Bridge observes: Bipartisan federal investment in reentry programs shows how evidence-based policy can achieve public safety goals through rehabilitation."
     },
     {
@@ -26,7 +26,7 @@ const justiceContent = [
         correct_answer: true,
         value: 18,
         correct_feedback: "Correct! Individual-focused studies show much lower reoffending rates, especially for first-time offenders.",
-        incorrect_feedback: "First-timer data reveals that most people don\'t become career criminals, supporting early intervention approaches.",
+        incorrect_feedback: "First-timer data reveals that most people don\\'t become career criminals, supporting early intervention approaches.",
         bridge_commentary: "The Bridge observes: First-time offender success rates suggest both the potential for redemption and the value of targeted intervention."
     },
     {
@@ -156,7 +156,7 @@ const justiceContent = [
         correct_answer: false,
         value: 14,
         correct_feedback: "False! Research shows that program participants have genuinely lower recidivism rates, indicating real behavior change.",
-        incorrect_feedback: "If programs were just manipulation, recidivism rates wouldn\'t actually drop for participants compared to non-participants.",
+        incorrect_feedback: "If programs were just manipulation, recidivism rates wouldn\\'t actually drop for participants compared to non-participants.",
         bridge_commentary: "The Bridge observes: Measurable outcomes demonstrate that effective programs create genuine change rather than mere system manipulation."
     },
     {
@@ -227,7 +227,7 @@ const justiceContent = [
         question: "TRUE or FALSE: Violent crime rates fell dramatically from 1993-2010 during a period of increased incarceration and enhanced penalties.",
         correct_answer: true,
         value: 18,
-        correct_feedback: "Correct! The 'Great Crime Decline' coincided with policies emphasizing deterrence and incapacitation of repeat offenders.",
+        correct_feedback: "Correct! The \'Great Crime Decline\' coincided with policies emphasizing deterrence and incapacitation of repeat offenders.",
         incorrect_feedback: "Historical data shows the strongest correlation between enhanced enforcement and reduced violent crime rates.",
         bridge_commentary: "The Bridge observes: The crime decline of the 1990s-2000s involved multiple factors, with enhanced enforcement playing a significant role."
     },
@@ -238,7 +238,7 @@ const justiceContent = [
         correct_answer: false,
         value: 16,
         correct_feedback: "False! Research shows diminishing returns on sentence length - certainty of punishment deters more than severity alone.",
-        incorrect_feedback: "While appropriate sentences are important, extremely long sentences don\'t always produce additional deterrent effects.",
+        incorrect_feedback: "While appropriate sentences are important, extremely long sentences don\\'t always produce additional deterrent effects.",
         bridge_commentary: "The Bridge observes: Deterrence research suggests that swift, certain consequences may be more effective than purely harsh sentences."
     },
     {
@@ -258,7 +258,7 @@ const justiceContent = [
         correct_answer: false,
         value: 18,
         correct_feedback: "False! Studies show private prisons often cost similar amounts while sometimes having higher recidivism and safety issues.",
-        incorrect_feedback: "Comprehensive cost analyses suggest private prisons don\'t consistently deliver promised savings.",
+        incorrect_feedback: "Comprehensive cost analyses suggest private prisons don\\'t consistently deliver promised savings.",
         bridge_commentary: "The Bridge observes: Prison management decisions should focus on effectiveness and safety rather than purely cost considerations."
     },
     {
@@ -278,7 +278,7 @@ const justiceContent = [
         correct_answer: false,
         value: 19,
         correct_feedback: "False! Despite mandatory minimums, significant racial disparities persist in arrests, charging, and sentencing.",
-        incorrect_feedback: "Mandatory minimums haven\'t solved the problem of unequal treatment across racial groups in the justice system.",
+        incorrect_feedback: "Mandatory minimums haven\\'t solved the problem of unequal treatment across racial groups in the justice system.",
         bridge_commentary: "The Bridge observes: Ensuring equal justice requires ongoing attention to disparities at all levels of the criminal justice system."
     },
     {
@@ -324,7 +324,7 @@ const justiceContent = [
     {
         type: "tf_question",
         stance: "law_order",
-        question: "TRUE or FALSE: Enhanced prosecution strategies have completely eliminated domestic violence in communities where they\'re implemented.",
+        question: "TRUE or FALSE: Enhanced prosecution strategies have completely eliminated domestic violence in communities where they\\'re implemented.",
         correct_answer: false,
         value: 18,
         correct_feedback: "False! While enhanced prosecution reduces repeat abuse significantly, domestic violence remains a complex social problem requiring multiple approaches.",
@@ -369,7 +369,7 @@ const justiceContent = [
         value: 18,
         correct_feedback: "Correct! Enhanced monitoring and registration create accountability that protects potential victims from dangerous predators.",
         incorrect_feedback: "Sex offender monitoring demonstrates how enhanced supervision can prevent the most serious crimes against vulnerable victims.",
-        bridge_commentary: "The Bridge observes: Sex offender monitoring reflects society\'s commitment to protecting the most vulnerable potential victims."
+        bridge_commentary: "The Bridge observes: Sex offender monitoring reflects society\\'s commitment to protecting the most vulnerable potential victims."
     },
     {
         type: "tf_question",
@@ -523,8 +523,8 @@ const justiceContent = [
         },
         correct_answer_key: "B",
         value: 18,
-        correct_feedback: "Correct! Norway\'s rehabilitation-focused system achieves a 20% recidivism rate compared to 68% in the U.S.",
-        incorrect_feedback: "Norway\'s low recidivism demonstrates how rehabilitation-focused approaches can achieve superior public safety outcomes.",
+        correct_feedback: "Correct! Norway\\'s rehabilitation-focused system achieves a 20% recidivism rate compared to 68% in the U.S.",
+        incorrect_feedback: "Norway\\'s low recidivism demonstrates how rehabilitation-focused approaches can achieve superior public safety outcomes.",
         bridge_commentary: "The Bridge observes: International comparisons show different approaches to criminal justice can achieve varying levels of success in reducing reoffending."
     },
     {
@@ -588,7 +588,7 @@ const justiceContent = [
         correct_answer_key: "B",
         value: 18,
         correct_feedback: "Correct! Family-based interventions that address multiple systems show the strongest evidence for reducing youth reoffending.",
-        incorrect_feedback: "Multisystemic therapy demonstrates how addressing root causes in youth\'s environment prevents future delinquency.",
+        incorrect_feedback: "Multisystemic therapy demonstrates how addressing root causes in youth\\'s environment prevents future delinquency.",
         bridge_commentary: "The Bridge observes: Youth intervention research highlights how addressing family and community factors can prevent criminal career development."
     },
     {
@@ -972,7 +972,7 @@ const justiceContent = [
         stance: "law_order",
         text: "Asset forfeiture from criminal enterprises recovers $2 billion annually for victim compensation and law enforcement operations.",
         value: 16,
-        bridge_commentary: "The Bridge observes: Seizing criminal proceeds ensures that crime doesn\'t pay while providing resources for victims and public safety."
+        bridge_commentary: "The Bridge observes: Seizing criminal proceeds ensures that crime doesn\\'t pay while providing resources for victims and public safety."
     },
     {
         type: "factoid",
@@ -1051,7 +1051,7 @@ const justiceContent = [
         stance: "neutral",
         text: "Cost-benefit analyses show that every dollar invested in evidence-based crime prevention saves $7 in criminal justice and victim costs.",
         value: 18,
-        bridge_commentary: "The Bridge observes: Prevention-focused investments demonstrate how addressing crime\'s root causes can benefit both public safety and fiscal responsibility."
+        bridge_commentary: "The Bridge observes: Prevention-focused investments demonstrate how addressing crime\\'s root causes can benefit both public safety and fiscal responsibility."
     }
 ];
 
