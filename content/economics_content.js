@@ -166,7 +166,7 @@ const economicContent = [
         correct_answer: false,
         value: 16,
         correct_feedback: "False. Universal childcare programs are strongly correlated with *increased* maternal labor force participation, boosting economic output and gender equality.",
-        incorrect_feedback: "Universal childcare programs are generally found to encourage, rather than discourage, women\'s participation in the workforce.",
+        incorrect_feedback: "Universal childcare programs are generally found to encourage, rather than discourage, women\\'s participation in the workforce.",
         bridge_commentary: "Social policies can have significant economic ripple effects, particularly concerning labor force dynamics."
     },
     {
@@ -209,7 +209,7 @@ const economicContent = [
         correct_answer: true,
         value: 17,
         correct_feedback: "Correct! Rising government spending absorbs resources that could otherwise fund private innovation and job creation.",
-        incorrect_feedback: "Government\'s growing share of the economy does reduce resources available for private sector investment and growth.",
+        incorrect_feedback: "Government\\'s growing share of the economy does reduce resources available for private sector investment and growth.",
         bridge_commentary: "The balance between public and private resource allocation affects both economic efficiency and social outcomes."
     },
     {
@@ -309,7 +309,7 @@ const economicContent = [
         correct_answer: true,
         value: 18,
         correct_feedback: "True. The drive for profit and market competition incentivizes companies to develop new products and processes, which is fundamental to sustained economic growth.",
-        incorrect_feedback: "Yes, the private sector\'s pursuit of innovation within competitive markets is widely recognized as the main driver of long-term prosperity.",
+        incorrect_feedback: "Yes, the private sector\\'s pursuit of innovation within competitive markets is widely recognized as the main driver of long-term prosperity.",
         bridge_commentary: "Recognizing the sources of innovation helps in designing policies that foster continued progress and prosperity."
     },
     {
@@ -616,7 +616,7 @@ const economicContent = [
         },
         correct_answer_key: "C",
         value: 16,
-        correct_feedback: "Correct! GDP is the most widely used measure of a country\'s total economic output and serves as a key indicator of economic health.",
+        correct_feedback: "Correct! GDP is the most widely used measure of a country\\'s total economic output and serves as a key indicator of economic health.",
         incorrect_feedback: "While other indicators are important, Gross Domestic Product (GDP) provides the broadest measure of a nation\\'s economic activity.",
         bridge_commentary: "Economic indicators provide a snapshot of a country\\'s performance, but a holistic view requires considering multiple data points."
     },
@@ -761,7 +761,7 @@ const economicContent = [
         correct_answer_key: "B",
         value: 20,
         correct_feedback: "Correct! The Federal Reserve conducts monetary policy to influence economic conditions, aiming for stable prices and a healthy job market.",
-        incorrect_feedback: "The Federal Reserve\'s core mission involves maintaining economic stability through monetary policy tools.",
+        incorrect_feedback: "The Federal Reserve\\'s core mission involves maintaining economic stability through monetary policy tools.",
         bridge_commentary: "Understanding the role of independent institutions like the Federal Reserve is key to grasping modern economic management."
     },
 
@@ -771,7 +771,7 @@ const economicContent = [
         stance: "government_intervention",
         text: "The top 1% of Americans now own 32% of total wealth, while the bottom 50% own just 2%, representing the highest inequality since the 1920s.",
         value: 14,
-        bridge_commentary: "Wealth concentration data raises questions about economic sustainability and opportunity that affect everyone\'s long-term prospects."
+        bridge_commentary: "Wealth concentration data raises questions about economic sustainability and opportunity that affect everyone\\'s long-term prospects."
     },
     {
         type: "factoid",
@@ -897,14 +897,14 @@ const economicContent = [
         stance: "government_intervention",
         text: "Maria Gonzalez, a restaurant worker from Miami, couldn\\'t afford childcare until Florida expanded public pre-K, allowing her to work full-time and pursue community college.",
         value: 18,
-        bridge_commentary: "Personal stories like Maria\'s show how public investment in families can enable individual success and economic mobility."
+        bridge_commentary: "Personal stories like Maria\\'s show how public investment in families can enable individual success and economic mobility."
     },
     {
         type: "factoid",
         stance: "free_market",
         text: "David Chen started his tech company with $5,000 and grew it to 200 employees by 2024, demonstrating how entrepreneurial freedom creates jobs and innovation.",
         value: 17,
-        bridge_commentary: "Success stories like David\'s illustrate how market opportunity and entrepreneurial spirit can create prosperity for individuals and communities."
+        bridge_commentary: "Success stories like David\\'s illustrate how market opportunity and entrepreneurial spirit can create prosperity for individuals and communities."
     },
     {
         type: "factoid",
@@ -925,7 +925,7 @@ const economicContent = [
         stance: "government_intervention",
         text: "The GI Bill helped 8 million World War II veterans access higher education and home ownership, creating the modern middle class through public investment.",
         value: 20,
-        bridge_commentary: "The GI Bill\'s success shows how targeted government programs can create broad-based prosperity and economic opportunity."
+        bridge_commentary: "The GI Bill\\'s success shows how targeted government programs can create broad-based prosperity and economic opportunity."
     },
     {
         type: "factoid",
@@ -937,7 +937,7 @@ const economicContent = [
     {
         type: "factoid",
         stance: "neutral",
-        text: "Germany\'s social market economy combines strong labor protections with competitive markets, achieving both high productivity and shared prosperity.",
+        text: "Germany\\'s social market economy combines strong labor protections with competitive markets, achieving both high productivity and shared prosperity.",
         value: 21,
         bridge_commentary: "German economic success suggests that market efficiency and social protection can work together when properly balanced."
     },
