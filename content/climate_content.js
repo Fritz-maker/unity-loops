@@ -75,8 +75,8 @@ const climateContent = [
         question: "TRUE or FALSE: Planting trees can completely solve climate change by absorbing all human-caused CO2 emissions.",
         correct_answer: false,
         value: 14,
-        correct_feedback: "Correct! While forests are important carbon sinks, there isn\'t enough available land to plant trees that could absorb all our emissions.",
-        incorrect_feedback: "Tree planting is valuable but can\'t single-handedly solve climate change - we need emission reductions plus natural solutions.",
+        correct_feedback: "Correct! While forests are important carbon sinks, there isn\\'t enough available land to plant trees that could absorb all our emissions.",
+        incorrect_feedback: "Tree planting is valuable but can\\'t single-handedly solve climate change - we need emission reductions plus natural solutions.",
         bridge_commentary: "The Bridge observes: Natural climate solutions like reforestation are important components of climate action, but must be combined with emissions reductions for maximum effectiveness."
     },
     {
@@ -145,7 +145,7 @@ const climateContent = [
         question: "TRUE or FALSE: Individual actions like recycling and turning off lights have no meaningful impact on global climate change.",
         correct_answer: false,
         value: 15,
-        correct_feedback: "Correct! While individual actions alone aren\'t sufficient, collective individual action by millions of people can create significant impact.",
+        correct_feedback: "Correct! While individual actions alone aren\\'t sufficient, collective individual action by millions of people can create significant impact.",
         incorrect_feedback: "Individual actions matter when adopted at scale - collective behavior change has driven major environmental improvements in the past.",
         bridge_commentary: "The Bridge observes: Individual responsibility and systemic change work together most effectively, with personal actions creating momentum for larger policy changes."
     },
@@ -919,7 +919,7 @@ const climateContent = [
     {
         type: "factoid",
         stance: "environmental_protection",
-        text: "Community solar projects allow people who can\'t install rooftop panels to access renewable energy, democratizing clean electricity access.",
+        text: "Community solar projects allow people who can\\'t install rooftop panels to access renewable energy, democratizing clean electricity access.",
         value: 16,
         bridge_commentary: "The Bridge observes: Innovative financing and ownership models are making clean energy accessible to broader populations, including renters and low-income households."
     },
