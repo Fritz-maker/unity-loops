@@ -237,7 +237,7 @@ const immigrationContent = [
         question: "Current immigration enforcement agencies are understaffed relative to the scale of unauthorized immigration.",
         correct_answer: true,
         value: 17,
-        correct_feedback: "True. ICE and border patrol capacity hasn't kept pace with enforcement demands.",
+        correct_feedback: "True. ICE and border patrol capacity hasn\'t kept pace with enforcement demands.",
         incorrect_feedback: "Enforcement capacity is indeed strained relative to current immigration levels.",
         bridge_commentary: "Capacity mismatches create challenges for both effective enforcement and humane treatment."
     },
@@ -536,7 +536,7 @@ const immigrationContent = [
         },
         correct_answer_key: "B",
         value: 22,
-        correct_feedback: "Correct! Immigrants comprised 14.3% of the population and accounted for almost two-fifths of the country\'s five-year population growth in 2023.",
+        correct_feedback: "Correct! Immigrants comprised 14.3% of the population and accounted for almost two-fifths of the country\\'s five-year population growth in 2023.",
         incorrect_feedback: "Immigrants made up 14.3% of the U.S. population and contributed significantly to recent population growth.",
         bridge_commentary: "Demographic data highlights the critical role of immigration in maintaining and growing the U.S. population."
     },
@@ -778,7 +778,7 @@ const immigrationContent = [
         value: 21,
         correct_feedback: "Correct! Extreme heat, water shortages, and rising sea levels are making certain regions in the U.S. increasingly difficult to live in, leading to population decline.",
         incorrect_feedback: "Climate change impacts, such as severe weather and resource scarcity, are directly contributing to population shifts within the U.S.",
-        bridge_commentary: "Climate change is not just an environmental issue; it\'s a demographic one, influencing where and how people can live."
+        bridge_commentary: "Climate change is not just an environmental issue; it\\'s a demographic one, influencing where and how people can live."
     },
 
     // FACTOIDS - Humanitarian Perspective (5 from original + 2 new = 7 total)
@@ -845,7 +845,7 @@ const immigrationContent = [
         stance: "security_first",
         text: "Immigration courts have over 1.5 million pending cases, with average wait times of 4+ years, undermining both swift justice and deportation effectiveness.",
         value: 15,
-        bridge_commentary: "System backlogs create problems for everyone - those seeking protection can\'t get quick decisions, and enforcement can\'t proceed efficiently."
+        bridge_commentary: "System backlogs create problems for everyone - those seeking protection can\\'t get quick decisions, and enforcement can\\'t proceed efficiently."
     },
     {
         type: "factoid",
