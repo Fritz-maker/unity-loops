@@ -17,7 +17,7 @@ const immigrationContent = [
         value: 16,
         correct_feedback: "True! This is unprecedented since census data began in 1850, reflecting declining US birth rates.",
         incorrect_feedback: "Actually, immigration drove all population growth in 2022-2023 for the first time in over 170 years.",
-        bridge_commentary: "This historic shift shows how immigration has become essential for America\'s demographic sustainability."
+        bridge_commentary: "This historic shift shows how immigration has become essential for America\\'s demographic sustainability."
     },
     {
         type: "tf_question",
@@ -87,7 +87,7 @@ const immigrationContent = [
         value: 18,
         correct_feedback: "True. Rising sea levels, droughts, and extreme weather are creating new forms of displacement.",
         incorrect_feedback: "Climate displacement is a growing reality that will likely increase migration pressures globally.",
-        bridge_commentary: "Climate migration presents new challenges that traditional immigration frameworks weren\'t designed to handle."
+        bridge_commentary: "Climate migration presents new challenges that traditional immigration frameworks weren\\'t designed to handle."
     },
     {
         type: "tf_question",
@@ -107,7 +107,7 @@ const immigrationContent = [
         value: 16,
         correct_feedback: "True. Immigrants make up a vital part of the labor market in industries like agriculture, construction, and healthcare, addressing shortages.",
         incorrect_feedback: "Yes, immigrants play a crucial role in filling labor gaps across various essential industries in the U.S.",
-        bridge_commentary: "Understanding labor market needs reveals how immigration is deeply intertwined with America\'s economic functionality."
+        bridge_commentary: "Understanding labor market needs reveals how immigration is deeply intertwined with America\\'s economic functionality."
     },
     {
         type: "tf_question",
@@ -125,7 +125,7 @@ const immigrationContent = [
         question: "Social support networks among immigrants are a fundamental dimension for their successful social integration.",
         correct_answer: true,
         value: 15,
-        correct_feedback: "True. Studies confirm that strong social support networks enhance immigrants\' experience of community and provide essential assistance, promoting integration.",
+        correct_feedback: "True. Studies confirm that strong social support networks enhance immigrants\\' experience of community and provide essential assistance, promoting integration.",
         incorrect_feedback: "Research indicates that social networks are indeed crucial for the social integration and well-being of immigrants.",
         bridge_commentary: "Community bonds and mutual support are powerful forces in helping newcomers thrive in a new land."
     },
@@ -162,11 +162,11 @@ const immigrationContent = [
     {
         type: "tf_question",
         stance: "humanitarian",
-        question: "The U.S. Refugee Admissions Program\'s funding has recently seen proposed increases to support refugee protection and resettlement efforts.",
+        question: "The U.S. Refugee Admissions Program\\'s funding has recently seen proposed increases to support refugee protection and resettlement efforts.",
         correct_answer: false,
         value: 17,
-        correct_feedback: "False. The White House has formally requested over $800 million in cuts from the State Department\'s Migration and Refugee Assistance budget, which funds the U.S. Refugee Admissions Program.",
-        incorrect_feedback: "Recent proposals actually indicate significant cuts to the U.S. Refugee Admissions Program\'s budget.",
+        correct_feedback: "False. The White House has formally requested over $800 million in cuts from the State Department\\'s Migration and Refugee Assistance budget, which funds the U.S. Refugee Admissions Program.",
+        incorrect_feedback: "Recent proposals actually indicate significant cuts to the U.S. Refugee Admissions Program\\'s budget.",
         bridge_commentary: "Budgetary decisions reflect shifts in national priorities regarding humanitarian aid and refugee support."
     },
     {
@@ -177,7 +177,7 @@ const immigrationContent = [
         value: 16,
         correct_feedback: "True. The CBP One app was a key tool during the Biden administration for humanitarian migrants to seek entry and schedule appointments for credible fear claims.",
         incorrect_feedback: "Yes, the CBP One app was specifically designed to streamline the process for certain asylum-seekers to enter at ports of entry.",
-        bridge_commentary: "Technology\'s role in managing migration flows can be a point of both efficiency and contention."
+        bridge_commentary: "Technology\\'s role in managing migration flows can be a point of both efficiency and contention."
     },
     {
         type: "tf_question",
@@ -219,7 +219,7 @@ const immigrationContent = [
         value: 15,
         correct_feedback: "True. Document fraud undermines security screening and harms legal immigrants whose identities may be stolen.",
         incorrect_feedback: "Document fraud is indeed a serious concern that affects immigration system integrity.",
-        bridge_commentary: "Security concerns about fraud affect everyone\'s confidence in the immigration system\'s integrity."
+        bridge_commentary: "Security concerns about fraud affect everyone\'s confidence in the immigration system\\'s integrity."
     },
     {
         type: "tf_question",
@@ -237,7 +237,7 @@ const immigrationContent = [
         question: "Current immigration enforcement agencies are understaffed relative to the scale of unauthorized immigration.",
         correct_answer: true,
         value: 17,
-        correct_feedback: "True. ICE and border patrol capacity hasn\'t kept pace with enforcement demands.",
+        correct_feedback: "True. ICE and border patrol capacity hasn\\'t kept pace with enforcement demands.",
         incorrect_feedback: "Enforcement capacity is indeed strained relative to current immigration levels.",
         bridge_commentary: "Capacity mismatches create challenges for both effective enforcement and humane treatment."
     },
@@ -287,14 +287,14 @@ const immigrationContent = [
         question: "Mass deportation policies have been shown to consistently lead to increased wages and job opportunities for U.S.-born workers.",
         correct_answer: false,
         value: 17,
-        correct_feedback: "False. Research from Trump\'s first term indicates that previous mass deportations did *not* lead to increased wages or job opportunities for U.S.-born workers; instead, they sometimes lowered wages and contributed to job losses.",
+        correct_feedback: "False. Research from Trump\\'s first term indicates that previous mass deportations did *not* lead to increased wages or job opportunities for U.S.-born workers; instead, they sometimes lowered wages and contributed to job losses.",
         incorrect_feedback: "Economic research suggests that mass deportations do not necessarily translate to improved labor market outcomes for native-born workers.",
         bridge_commentary: "The economic impacts of mass deportation are complex and often counterintuitive, affecting various sectors of the economy."
     },
     {
         type: "tf_question",
         stance: "security_first",
-        question: "The U.S. immigration system\'s current complexities are primarily due to insufficient infrastructure rather than changes in migration patterns.",
+        question: "The U.S. immigration system\\'s current complexities are primarily due to insufficient infrastructure rather than changes in migration patterns.",
         correct_answer: false,
         value: 16,
         correct_feedback: "False. Over the past decade, there has been a fundamental change in migration patterns, leading to greater displacement and placing significant strain on the outdated immigration system.",
@@ -308,7 +308,7 @@ const immigrationContent = [
         correct_answer: false,
         value: 18,
         correct_feedback: "False. Project 2025 calls for rule changes that would dramatically *reduce* the number of H-1 and H-2 temporary visas issued.",
-        incorrect_feedback: "Project 2025\'s blueprint actually suggests a substantial reduction in temporary visa programs.",
+        incorrect_feedback: "Project 2025\\'s blueprint actually suggests a substantial reduction in temporary visa programs.",
         bridge_commentary: "Policy blueprints can signal significant shifts in immigration priorities, impacting various aspects of the system."
     },
     {
@@ -328,7 +328,7 @@ const immigrationContent = [
         correct_answer: false,
         value: 16,
         correct_feedback: "False. Collaborative public-private programs under CBP are focused on infrastructure improvements, non-intrusive inspection technologies, and mobile biometric and inspection solutions, not just physical walls.",
-        incorrect_feedback: "CBP\'s public-private initiatives are more broadly focused on technology and infrastructure improvements beyond just physical barriers.",
+        incorrect_feedback: "CBP\\'s public-private initiatives are more broadly focused on technology and infrastructure improvements beyond just physical barriers.",
         bridge_commentary: "Modern border security strategies often involve a multi-faceted approach, combining various tools and partnerships."
     },
     {
@@ -745,7 +745,7 @@ const immigrationContent = [
         correct_answer_key: "D",
         value: 20,
         correct_feedback: "Correct! While CBP is investing heavily in technology, there is no plan to eliminate all human agents; rather, technology will support and optimize their operations.",
-        incorrect_feedback: "CBP\'s technological advancements aim to enhance, not replace, the role of human agents in border security.",
+        incorrect_feedback: "CBP\\'s technological advancements aim to enhance, not replace, the role of human agents in border security.",
         bridge_commentary: "The future of border security lies in a synergy between advanced technology and skilled human professionals."
     },
     {
@@ -806,7 +806,7 @@ const immigrationContent = [
     {
         type: "factoid",
         stance: "humanitarian",
-        text: "With US birth rates below replacement level, immigration is the only reason America\'s population continues growing, preventing the aging crisis facing countries like Japan.",
+        text: "With US birth rates below replacement level, immigration is the only reason America\\'s population continues growing, preventing the aging crisis facing countries like Japan.",
         value: 16,
         bridge_commentary: "Demographic trends suggest immigration may be essential for maintaining economic growth and supporting social programs."
     },
@@ -815,12 +815,12 @@ const immigrationContent = [
         stance: "humanitarian",
         text: "Since 2000, immigrants have won 38% of Nobel Prizes awarded to Americans, demonstrating the global talent that immigration brings to US research and innovation.",
         value: 17,
-        bridge_commentary: "Scientific achievement patterns suggest that immigration enhances America\'s competitive edge in the global knowledge economy."
+        bridge_commentary: "Scientific achievement patterns suggest that immigration enhances America\\'s competitive edge in the global knowledge economy."
     },
     {
         type: "factoid",
         stance: "humanitarian",
-        text: "In 2023, immigrants comprised 28.4% of the nation\'s health aides and 15.9% of its nurses, filling critical staffing shortages in the healthcare industry.",
+        text: "In 2023, immigrants comprised 28.4% of the nation\\'s health aides and 15.9% of its nurses, filling critical staffing shortages in the healthcare industry.",
         value: 15,
         bridge_commentary: "The reliance on immigrant workers in healthcare underscores their indispensable role in maintaining public health services."
     },
@@ -922,7 +922,7 @@ const immigrationContent = [
     {
         type: "factoid",
         stance: "neutral",
-        text: "The Congressional Budget Office (CBO) estimated overall net migration of 3.3 million in 2023, including a significant increase in 'other foreign nationals' above historical norms.",
+        text: "The Congressional Budget Office (CBO) estimated overall net migration of 3.3 million in 2023, including a significant increase in \'other foreign nationals\' above historical norms.",
         value: 16,
         bridge_commentary: "Official estimates provide a snapshot of recent migration trends, highlighting shifts in demographics and entry categories."
     },
