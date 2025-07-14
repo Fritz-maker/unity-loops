@@ -1,6 +1,6 @@
 // Add this at the very beginning
 function getLoopContent() {
-    return economicsContent;
+    return economicContent;
 }
 
 // Economics Content Pool - Expanded for Unity Loops
