@@ -16,7 +16,7 @@ const justiceContent = [
         correct_answer: true,
         value: 16,
         correct_feedback: "Correct! Federal investment in evidence-based reentry programs across 48 states has dramatically reduced repeat incarceration.",
-        incorrect_feedback: "Actually, the Second Chance Act\'s 1,200+ grantees serving over 400,000 people demonstrate rehabilitation\'s measurable effectiveness.",
+        incorrect_feedback: "Actually, the Second Chance Act\'s 1,200+ grantees serving over 400,000 people demonstrate rehabilitation\\'s measurable effectiveness.",
         bridge_commentary: "The Bridge observes: Bipartisan federal investment in reentry programs shows how evidence-based policy can achieve public safety goals through rehabilitation."
     },
     {
@@ -26,7 +26,7 @@ const justiceContent = [
         correct_answer: true,
         value: 18,
         correct_feedback: "Correct! Individual-focused studies show much lower reoffending rates, especially for first-time offenders.",
-        incorrect_feedback: "First-timer data reveals that most people don't become career criminals, supporting early intervention approaches.",
+        incorrect_feedback: "First-timer data reveals that most people don\'t become career criminals, supporting early intervention approaches.",
         bridge_commentary: "The Bridge observes: First-time offender success rates suggest both the potential for redemption and the value of targeted intervention."
     },
     {
@@ -238,7 +238,7 @@ const justiceContent = [
         correct_answer: false,
         value: 16,
         correct_feedback: "False! Research shows diminishing returns on sentence length - certainty of punishment deters more than severity alone.",
-        incorrect_feedback: "While appropriate sentences are important, extremely long sentences don't always produce additional deterrent effects.",
+        incorrect_feedback: "While appropriate sentences are important, extremely long sentences don\'t always produce additional deterrent effects.",
         bridge_commentary: "The Bridge observes: Deterrence research suggests that swift, certain consequences may be more effective than purely harsh sentences."
     },
     {
@@ -258,7 +258,7 @@ const justiceContent = [
         correct_answer: false,
         value: 18,
         correct_feedback: "False! Studies show private prisons often cost similar amounts while sometimes having higher recidivism and safety issues.",
-        incorrect_feedback: "Comprehensive cost analyses suggest private prisons don't consistently deliver promised savings.",
+        incorrect_feedback: "Comprehensive cost analyses suggest private prisons don\'t consistently deliver promised savings.",
         bridge_commentary: "The Bridge observes: Prison management decisions should focus on effectiveness and safety rather than purely cost considerations."
     },
     {
@@ -278,7 +278,7 @@ const justiceContent = [
         correct_answer: false,
         value: 19,
         correct_feedback: "False! Despite mandatory minimums, significant racial disparities persist in arrests, charging, and sentencing.",
-        incorrect_feedback: "Mandatory minimums haven't solved the problem of unequal treatment across racial groups in the justice system.",
+        incorrect_feedback: "Mandatory minimums haven\'t solved the problem of unequal treatment across racial groups in the justice system.",
         bridge_commentary: "The Bridge observes: Ensuring equal justice requires ongoing attention to disparities at all levels of the criminal justice system."
     },
     {
@@ -324,7 +324,7 @@ const justiceContent = [
     {
         type: "tf_question",
         stance: "law_order",
-        question: "TRUE or FALSE: Enhanced prosecution strategies have completely eliminated domestic violence in communities where they're implemented.",
+        question: "TRUE or FALSE: Enhanced prosecution strategies have completely eliminated domestic violence in communities where they\'re implemented.",
         correct_answer: false,
         value: 18,
         correct_feedback: "False! While enhanced prosecution reduces repeat abuse significantly, domestic violence remains a complex social problem requiring multiple approaches.",
@@ -523,8 +523,8 @@ const justiceContent = [
         },
         correct_answer_key: "B",
         value: 18,
-        correct_feedback: "Correct! Norway's rehabilitation-focused system achieves a 20% recidivism rate compared to 68% in the U.S.",
-        incorrect_feedback: "Norway's low recidivism demonstrates how rehabilitation-focused approaches can achieve superior public safety outcomes.",
+        correct_feedback: "Correct! Norway\'s rehabilitation-focused system achieves a 20% recidivism rate compared to 68% in the U.S.",
+        incorrect_feedback: "Norway\'s low recidivism demonstrates how rehabilitation-focused approaches can achieve superior public safety outcomes.",
         bridge_commentary: "The Bridge observes: International comparisons show different approaches to criminal justice can achieve varying levels of success in reducing reoffending."
     },
     {
@@ -557,7 +557,7 @@ const justiceContent = [
         value: 16,
         correct_feedback: "Correct! Employment provides stability, purpose, and income that dramatically reduce the likelihood of reoffending.",
         incorrect_feedback: "Employment is consistently identified as the strongest predictor of successful reintegration and reduced recidivism.",
-        bridge_commentary: "The Bridge observes: Employment\'s role in preventing recidivism highlights how economic opportunity can serve both individual and public safety goals."
+        bridge_commentary: "The Bridge observes: Employment\\'s role in preventing recidivism highlights how economic opportunity can serve both individual and public safety goals."
     },
     {
         type: "mc_question",
@@ -856,9 +856,9 @@ const justiceContent = [
     {
         type: "factoid",
         stance: "reform_rehabilitation",
-        text: "Portugal\'s decriminalization of drug use led to a 95% drop in drug-related HIV infections and 80% reduction in drug-related crime within 15 years.",
+        text: "Portugal\\'s decriminalization of drug use led to a 95% drop in drug-related HIV infections and 80% reduction in drug-related crime within 15 years.",
         value: 18,
-        bridge_commentary: "The Bridge observes: Portugal\'s approach demonstrates how treating addiction as a health issue rather than solely a criminal one can improve both individual and public health outcomes."
+        bridge_commentary: "The Bridge observes: Portugal\\'s approach demonstrates how treating addiction as a health issue rather than solely a criminal one can improve both individual and public health outcomes."
     },
     {
         type: "factoid",
@@ -972,7 +972,7 @@ const justiceContent = [
         stance: "law_order",
         text: "Asset forfeiture from criminal enterprises recovers $2 billion annually for victim compensation and law enforcement operations.",
         value: 16,
-        bridge_commentary: "The Bridge observes: Seizing criminal proceeds ensures that crime doesn't pay while providing resources for victims and public safety."
+        bridge_commentary: "The Bridge observes: Seizing criminal proceeds ensures that crime doesn\'t pay while providing resources for victims and public safety."
     },
     {
         type: "factoid",
