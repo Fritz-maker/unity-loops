@@ -219,7 +219,7 @@ const immigrationContent = [
         value: 15,
         correct_feedback: "True. Document fraud undermines security screening and harms legal immigrants whose identities may be stolen.",
         incorrect_feedback: "Document fraud is indeed a serious concern that affects immigration system integrity.",
-        bridge_commentary: "Security concerns about fraud affect everyone's confidence in the immigration system\'s integrity."
+        bridge_commentary: "Security concerns about fraud affect everyone\'s confidence in the immigration system\'s integrity."
     },
     {
         type: "tf_question",
