@@ -465,7 +465,7 @@ const healthcareContent = [
     {
         type: "mc_question",
         stance: "universal_care",
-        question: "Which of the following describes a 'single-payer' healthcare system?",
+        question: "Which of the following describes a \'single-payer\' healthcare system?",
         options: {
             "A": "Multiple private insurance companies compete for customers",
             "B": "Individuals pay directly for all medical services",
@@ -661,11 +661,11 @@ const healthcareContent = [
     {
         type: "mc_question",
         stance: "neutral",
-        question: "What is a 'co-payment' in health insurance?",
+        question: "What is a \'co-payment\' in health insurance?",
         options: {
             "A": "The total amount an individual pays for insurance annually",
             "B": "A fixed amount a patient pays for a covered healthcare service after the deductible is met",
-            "C": "The amount an employer pays towards an employee's insurance",
+            "C": "The amount an employer pays towards an employee\\'s insurance",
             "D": "A rebate received for healthy lifestyle choices"
         },
         correct_answer_key: "B",
@@ -677,7 +677,7 @@ const healthcareContent = [
     {
         type: "mc_question",
         stance: "neutral",
-        question: "Which of the following is considered a 'social determinant of health'?",
+        question: "Which of the following is considered a \'social determinant of health\'?",
         options: {
             "A": "Access to advanced surgical procedures",
             "B": "Pharmaceutical drug development",
@@ -693,12 +693,12 @@ const healthcareContent = [
     {
         type: "mc_question",
         stance: "neutral",
-        question: "What is the purpose of a 'formulary' in health insurance?",
+        question: "What is the purpose of a \'formulary\' in health insurance?",
         options: {
             "A": "A list of approved doctors and hospitals",
             "B": "A list of prescription drugs covered by the insurance plan",
             "C": "A document outlining patient rights",
-            "D": "A calculation of a patient's annual healthcare spending limit"
+            "D": "A calculation of a patient\\'s annual healthcare spending limit"
         },
         correct_answer_key: "B",
         value: 15,
@@ -776,7 +776,7 @@ const healthcareContent = [
         stance: "universal_care",
         text: "The NHS in the UK, a universal healthcare system, provides comprehensive care free at the point of use funded through general taxation.",
         value: 16,
-        bridge_commentary: "The UK's National Health Service is a prominent example of a fully publicly funded and operated universal healthcare model."
+        bridge_commentary: "The UK\\'s National Health Service is a prominent example of a fully publicly funded and operated universal healthcare model."
     },
     {
         type: "factoid",
