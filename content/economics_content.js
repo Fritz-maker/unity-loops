@@ -57,7 +57,7 @@ const economicContent = [
         value: 17,
         correct_feedback: "Correct! The US spends about 18% of GDP on healthcare while achieving worse outcomes than many countries spending 10-11%.",
         incorrect_feedback: "US healthcare costs are indeed exceptionally high relative to outcomes compared to other developed nations.",
-        bridge_commentary: "Healthcare economics illustrates how market efficiency doesn\'t always translate to cost effectiveness or better results."
+        bridge_commentary: "Healthcare economics illustrates how market efficiency doesn\\'t always translate to cost effectiveness or better results."
     },
     {
         type: "tf_question",
@@ -96,7 +96,7 @@ const economicContent = [
         correct_answer: true,
         value: 17,
         correct_feedback: "True. In 2023, CEO compensation was approximately 344 times higher than that of the typical worker, a significant increase from the 1970s.",
-        incorrect_feedback: "Yes, the gap between CEO and worker pay in the U.S. has widened dramatically, reaching hundreds of times the typical worker's earnings.",
+        incorrect_feedback: "Yes, the gap between CEO and worker pay in the U.S. has widened dramatically, reaching hundreds of times the typical worker\\'s earnings.",
         bridge_commentary: "Executive compensation trends highlight ongoing debates about fair wage distribution and corporate governance."
     },
     {
@@ -328,7 +328,7 @@ const economicContent = [
         question: "Excessive government bureaucracy and permitting processes are major barriers to new infrastructure projects and housing development.",
         correct_answer: true,
         value: 17,
-        correct_feedback: "True. Lengthy and complex regulatory processes, often referred to as 'red tape,' significantly delay and increase the cost of essential infrastructure and housing projects.",
+        correct_feedback: "True. Lengthy and complex regulatory processes, often referred to as \'red tape,\' significantly delay and increase the cost of essential infrastructure and housing projects.",
         incorrect_feedback: "Yes, inefficient government processes are frequently cited as a primary obstacle to building new infrastructure and addressing housing shortages.",
         bridge_commentary: "Streamlining governmental processes can unlock private sector investment and accelerate critical developments."
     },
@@ -504,7 +504,7 @@ const economicContent = [
         },
         correct_answer_key: "B",
         value: 17,
-        correct_feedback: "Correct! Small business growth requires both public infrastructure and smart regulation that doesn\'t burden startups.",
+        correct_feedback: "Correct! Small business growth requires both public infrastructure and smart regulation that doesn\\'t burden startups.",
         incorrect_feedback: "Entrepreneurship thrives with supportive infrastructure and regulations that enable rather than obstruct business formation.",
         bridge_commentary: "Small business policy shows how government can create conditions for market success rather than replacing markets."
     },
@@ -585,7 +585,7 @@ const economicContent = [
         correct_answer_key: "C",
         value: 17,
         correct_feedback: "Correct! This is a negative externality, a common market failure that often warrants government intervention through regulations or taxes.",
-        incorrect_feedback: "When private activities impose uncompensated costs on third parties or society, it\'s known as a negative externality.",
+        incorrect_feedback: "When private activities impose uncompensated costs on third parties or society, it\\'s known as a negative externality.",
         bridge_commentary: "Externalities highlight the broader societal impacts of economic activities beyond individual transactions."
     },
     {
@@ -607,7 +607,7 @@ const economicContent = [
     {
         type: "mc_question",
         stance: "neutral",
-        question: "Which economic indicator is most commonly used to measure the overall health and growth of a country\'s economy?",
+        question: "Which economic indicator is most commonly used to measure the overall health and growth of a country\\'s economy?",
         options: {
             "A": "Unemployment Rate",
             "B": "Inflation Rate",
@@ -617,8 +617,8 @@ const economicContent = [
         correct_answer_key: "C",
         value: 16,
         correct_feedback: "Correct! GDP is the most widely used measure of a country's total economic output and serves as a key indicator of economic health.",
-        incorrect_feedback: "While other indicators are important, Gross Domestic Product (GDP) provides the broadest measure of a nation\'s economic activity.",
-        bridge_commentary: "Economic indicators provide a snapshot of a country's performance, but a holistic view requires considering multiple data points."
+        incorrect_feedback: "While other indicators are important, Gross Domestic Product (GDP) provides the broadest measure of a nation\\'s economic activity.",
+        bridge_commentary: "Economic indicators provide a snapshot of a country\\'s performance, but a holistic view requires considering multiple data points."
     },
     {
         type: "mc_question",
@@ -853,7 +853,7 @@ const economicContent = [
     {
         type: "factoid",
         stance: "government_intervention",
-        text: "Worker productivity has increased 72% since 1973, but wages have grown only 13%, showing that growth doesn\'t automatically benefit workers.",
+        text: "Worker productivity has increased 72% since 1973, but wages have grown only 13%, showing that growth doesn\\'t automatically benefit workers.",
         value: 15,
         bridge_commentary: "Productivity and wage data illustrate how economic growth and worker benefits can become disconnected without policy intervention."
     },
@@ -895,7 +895,7 @@ const economicContent = [
     {
         type: "factoid",
         stance: "government_intervention",
-        text: "Maria Gonzalez, a restaurant worker from Miami, couldn't afford childcare until Florida expanded public pre-K, allowing her to work full-time and pursue community college.",
+        text: "Maria Gonzalez, a restaurant worker from Miami, couldn\\'t afford childcare until Florida expanded public pre-K, allowing her to work full-time and pursue community college.",
         value: 18,
         bridge_commentary: "Personal stories like Maria's show how public investment in families can enable individual success and economic mobility."
     },
@@ -974,7 +974,7 @@ const economicContent = [
         stance: "free_market",
         text: "Venture capital investment in artificial intelligence (AI) startups reached a record $27 billion in 2023, showcasing private sector leadership in emerging technologies.",
         value: 17,
-        bridge_commentary: "AI\'s rapid growth demonstrates how private investment and entrepreneurial risk-taking are driving the next wave of technological innovation."
+        bridge_commentary: "AI\\'s rapid growth demonstrates how private investment and entrepreneurial risk-taking are driving the next wave of technological innovation."
     }
 ];
 
