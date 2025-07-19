@@ -349,13 +349,25 @@ function handleEndOfLoop() {
         return;
     }
 
-    contentDisplayArea.innerHTML = `
+    
+     contentDisplayArea.innerHTML = `
         <div class="loop-complete">
             <h2>Loop Complete: ${currentLoopData.titleIncludes}</h2>
             <p>Final Score: ${Math.floor(userScore)}</p>
             <p>Your Perspective: ${currentImplicitPreference}</p>
+            
+            <div class="completion-actions">
+                <button onclick="returnToBeginning()" class="begin-again-btn">🔄 Begin Again</button>
+                <a href="https://unity-loops.com/hub" class="explore-all-loops">
+                    🏛️ Explore All 6 Consciousness Loops
+                </a>
+            </div>
+            
+            <div class="frontier-motto">
+                <p>"It's Loops All the Way Down"</p>
+            </div>
         </div>
-    `;
+    `;   
 
     nextButton.style.display = 'none';
 
