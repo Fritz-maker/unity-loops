@@ -356,17 +356,7 @@ function handleEndOfLoop() {
             <p>Final Score: ${Math.floor(userScore)}</p>
             <p>Your Perspective: ${currentImplicitPreference}</p>
             
-            <div class="completion-actions">
-                <button onclick="returnToBeginning()" class="begin-again-btn">🔄 Begin Again</button>
-                <a href="https://unity-loops.com/hub" class="explore-all-loops">
-                    🏛️ Explore All 6 Consciousness Loops
-                </a>
-            </div>
             
-            <div class="frontier-motto">
-                <p>"It's Loops All the Way Down"</p>
-            </div>
-        </div>
     `;   
 
     nextButton.style.display = 'none';
@@ -389,12 +379,22 @@ function handleStrangeLoop() {
     if (unlockStatus) {
         unlockStatus.classList.remove('hidden');
         unlockStatus.innerHTML = `
-            <div class="strange-loop">
-                <h3>🗽 DEMOCRATIC STRANGE LOOP 🗽</h3>
-                <p>Democracy requires the ability to disagree while maintaining respect.</p>
-                <button onclick="returnToBeginning()">🔄 Begin Again</button>
-            </div>
-        `;
+    <div class="strange-loop">
+        <h3>🗽 DEMOCRATIC STRANGE LOOP 🗽</h3>
+        <p>Democracy requires the ability to disagree while maintaining respect.</p>
+        
+        <div class="completion-actions">
+            <button onclick="returnToBeginning()" class="begin-again-btn">🔄 Begin Again</button>
+            <a href="https://unity-loops.com/hub" class="explore-all-loops">
+                🏛️ Explore All 6 Consciousness Loops
+            </a>
+        </div>
+        
+        <div class="frontier-motto">
+            <p>"It's Loops All the Way Down"</p>
+        </div>
+    </div>
+`;
     }
 }
 
