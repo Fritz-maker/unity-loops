@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONTIER: Choose a Loop - Consciousness Exploration Platform</title>
+    <meta name="description" content="FRONTIER - Explore consciousness through 6 interactive loops: OzzyRabbit mysteries, Unity Loops politics, Choice Engine free will, Nature Loops psychology, Cosmic Loops aliens, and Origin Loops creation. It's Loops All the Way Down.">
+    <meta name="keywords" content="consciousness, philosophy, political unity, free will, nature vs nurture, fermi paradox, origin stories, interactive loops">
+    <meta property="og:title" content="FRONTIER: Choose a Loop">
+    <meta property="og:description" content="Expand your consciousness through 6 mind-bending interactive loops exploring mystery, politics, free will, psychology, aliens, and origins.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unity-loops.com/hub">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CG2D7DKJL5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CG2D7DKJL5', {
+            page_title: 'FRONTIER Hub',
+            page_location: 'https://unity-loops.com/hub',
+            custom_map: {
+                'custom_parameter_1': 'loop_destination',
+                'custom_parameter_2': 'navigation_source'
+            }
+        });
+        
+        // Track loop navigation
+        function trackLoopNavigation(loopName, url) {
+            gtag('event', 'loop_navigation', {
+                'loop_destination': loopName,
+                'navigation_source': 'frontier_hub',
+                'outbound_url': url
+            });
+        }
+    </script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400;700;900&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Crimson Text', serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 25%, #2c1810 50%, #0e3460 75%, #533483 100%);
+            color: #f4f1e8;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+        
+        /* Mystical background elements */
+        .mystical-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+        
+        .floating-symbol {
+            position: absolute;
+            color: rgba(212, 175, 55, 0.1);
+            font-size: 2rem;
+            animation: float 20s infinite ease-in-out;
+            pointer-events: none;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.1; }
+            50% { transform: translateY(-20px) rotate(180deg); opacity: 0.3; }
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Header Section */
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 40px 30px;
+        }
+        
+        .main-title {
+            font-family: 'Orbitron', monospace;
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(45deg, #d4af37, #4facfe, #ff6b9d, #c471ed, #ffd700);
+            background-size: 400% 400%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbow-flow 8s ease infinite;
+            margin-bottom: 15px;
+            text-shadow: 0 0 30px rgba(212, 175, 55, 0.5);
+            letter-spacing: 3px;
+        }
+        
+        @keyframes rainbow-flow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .platform-subtitle {
+            font-size: 1rem;
+            color: #b8b8b8;
+            margin-bottom: 40px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        
+        .choose-loop {
+            font-size: 2.5rem;
+            color: #e6d7c3;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .expand-consciousness {
+            font-size: 1.4rem;
+            color: #4facfe;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        /* Loop Grid */
+        .loops-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        
+        .loop-shrine {
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            padding: 35px;
+            position: relative;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            overflow: hidden;
+            border: 2px solid transparent;
+            background-clip: padding-box;
+        }
+        
+        .loop-shrine::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 20px;
+            padding: 2px;
+            background: linear-gradient(45deg, var(--shrine-color-1), var(--shrine-color-2), var(--shrine-color-3));
+            background-size: 400% 400%;
+            animation: shrine-border 12s ease infinite;
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            z-index: -1;
+        }
+        
+        @keyframes shrine-border {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .loop-shrine:hover {
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* Individual shrine themes */
+        .ozzyrabbit { --shrine-color-1: #c8860d; --shrine-color-2: #ffd700; --shrine-color-3: #d4af37; }
+        .unity-loops { --shrine-color-1: #ff9500; --shrine-color-2: #ffa500; --shrine-color-3: #ffb366; }
+        .choice-engine { --shrine-color-1: #667eea; --shrine-color-2: #764ba2; --shrine-color-3: #FFD700; }
+        .nature-nurture { --shrine-color-1: #2E8B57; --shrine-color-2: #FF6B9D; --shrine-color-3: #4ECDC4; }
+        .cosmic-loops { --shrine-color-1: #4facfe; --shrine-color-2: #00f2fe; --shrine-color-3: #c471ed; }
+        .origin-loops { --shrine-color-1: #d4af37; --shrine-color-2: #b8860b; --shrine-color-3: #f4e4bc; }
+        
+        .shrine-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            display: block;
+            text-align: center;
+        }
+        
+        .shrine-title {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 1.8rem;
+            color: #ffffff;
+            margin-bottom: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .shrine-vs {
+            font-size: 1rem;
+            color: var(--shrine-color-1);
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .shrine-essence {
+            color: #e6d7c3;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .shrine-koan {
+            background: rgba(0, 0, 0, 0.2);
+            border-left: 4px solid var(--shrine-color-1);
+            padding: 15px;
+            border-radius: 8px;
+            font-style: italic;
+            color: #f4e4bc;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        
+        .shrine-location {
+            text-align: center;
+            color: #b0b0b0;
+            font-size: 0.85rem;
+            font-family: 'Orbitron', monospace;
+            margin-bottom: 15px;
+        }
+        
+        .shrine-button {
+            background: linear-gradient(45deg, var(--shrine-color-1), var(--shrine-color-2));
+            color: #1a1a2e;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0 auto;
+            width: fit-content;
+        }
+        
+        .shrine-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 40px 30px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            margin-top: 50px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .footer-taglines {
+            color: #d4af37;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .footer-philosophy {
+            color: #b8b8b8;
+            font-style: italic;
+            max-width: 600px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        
+        .copyright-email {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            font-size: 0.9rem;
+            color: #888;
+        }
+        
+        .copyright {
+            margin-bottom: 10px;
+        }
+        
+        .email {
+            color: #4facfe;
+        }
+        
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 2.5rem;
+            }
+            
+            .choose-loop {
+                font-size: 2rem;
+            }
+            
+            .expand-consciousness {
+                font-size: 1.2rem;
+            }
+            
+            .loops-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            .loop-shrine:hover {
+                transform: translateY(-5px) scale(1.02);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="mystical-bg" id="mysticalBg"></div>
+    
+    <div class="container">
+        <header class="header">
+            <h1 class="main-title">FRONTIER</h1>
+            <p class="platform-subtitle">Multi-Domain Exploration Platform</p>
+            <h2 class="choose-loop">Choose a Loop!</h2>
+            <p class="expand-consciousness">Expand your Consciousness...</p>
+        </header>
+        
+        <div class="loops-grid">
+            <div class="loop-shrine ozzyrabbit" onclick="navigateToLoop('OzzyRabbit', 'https://ozzyrabbit.com')">
+                <div class="shrine-icon">🔍</div>
+                <h3 class="shrine-title">OZZYRABBIT</h3>
+                <div class="shrine-vs">Mystery & Investigation</div>
+                <p class="shrine-essence"><strong>JFK Assassination: Lone gunman or conspiracy?</strong> An epistemological investigation through the lens of historical evidence. Click through perspectives and decide what really happened in Dallas!</p>
+                <div class="shrine-koan">"The subject of the Commission's inquiry becomes the subject inquiring about the inquiry's subject."</div>
+                <div class="shrine-location">ozzyrabbit.com</div>
+                <a href="https://ozzyrabbit.com" class="shrine-button" onclick="event.stopPropagation(); navigateToLoop('OzzyRabbit', 'https://ozzyrabbit.com');">Investigate Now!</a>
+            </div>
+            
+            <div class="loop-shrine unity-loops" onclick="navigateToLoop('Unity Loops', 'https://unity-loops.com')">
+                <div class="shrine-icon">🌉</div>
+                <h3 class="shrine-title">UNITY LOOPS</h3>
+                <div class="shrine-vs">Philosophy & Politics</div>
+                <p class="shrine-essence"><strong>Liberal vs Conservative perspectives!</strong> Bridge political divides through perspective-taking across six critical policy areas. Explore both sides in a friendly, judgment-free space.</p>
+                <div class="shrine-koan">"Understanding opposing views using cognitive abilities shaped by the political environment you're trying to transcend."</div>
+                <div class="shrine-location">unity-loops.com</div>
+                <a href="https://unity-loops.com" class="shrine-button" onclick="event.stopPropagation(); navigateToLoop('Unity Loops', 'https://unity-loops.com');">Build Bridges!</a>
+            </div>
+            
+            <div class="loop-shrine choice-engine" onclick="navigateToLoop('Choice Engine', 'https://fritz-maker.github.io/choice-engine')">
+                <div class="shrine-icon">⚖️</div>
+                <h3 class="shrine-title">CHOICE ENGINE</h3>
+                <div class="shrine-vs">Philosophy & Free Will</div>
+                <p class="shrine-essence"><strong>Free will vs Determinism!</strong> Do you really choose your choices? Navigate the ultimate paradox through mind-bending scenarios about freedom and responsibility.</p>
+                <div class="shrine-koan">"Do you choose to explore choice, or were you determined to question determinism?"</div>
+                <div class="shrine-location">fritz-maker.github.io/choice-engine</div>
+                <a href="https://fritz-maker.github.io/choice-engine" class="shrine-button" onclick="event.stopPropagation(); navigateToLoop('Choice Engine', 'https://fritz-maker.github.io/choice-engine');">Make Choices!</a>
+            </div>
+            
+            <div class="loop-shrine nature-nurture" onclick="navigateToLoop('Nature Loops', 'https://fritz-maker.github.io/nature-loops')">
+                <div class="shrine-icon">🌱</div>
+                <h3 class="shrine-title">NATURE LOOPS</h3>
+                <div class="shrine-vs">Psychology & Development</div>
+                <p class="shrine-essence"><strong>Nature vs Nurture!</strong> What made you... you? Journey through six developmental stages exploring how biology and environment shaped who you are. A fascinating journey of self-discovery!</p>
+                <div class="shrine-koan">"Which developmental stage shaped you to be curious about developmental stages?"</div>
+                <div class="shrine-location">fritz-maker.github.io/nature-loops</div>
+                <a href="https://fritz-maker.github.io/nature-loops" class="shrine-button" onclick="event.stopPropagation(); navigateToLoop('Nature Loops', 'https://fritz-maker.github.io/nature-loops');">Discover Yourself!</a>
+            </div>
+            
+            <div class="loop-shrine cosmic-loops" onclick="navigateToLoop('Cosmic Loops', 'https://fritz-maker.github.io/cosmic-loops-fermi-paradox')">
+                <div class="shrine-icon">🛸</div>
+                <h3 class="shrine-title">COSMIC LOOPS</h3>
+                <div class="shrine-vs">Space & Aliens</div>
+                <p class="shrine-essence"><strong>Are we alone in the universe?</strong> Explore the Fermi Paradox through consciousness seeking consciousness across the cosmos. Where is everybody? Click through cosmic possibilities!</p>
+                <div class="shrine-koan">"Where is everybody who might be asking 'Where is everybody?'"</div>
+                <div class="shrine-location">fritz-maker.github.io/cosmic-loops-fermi-paradox</div>
+                <a href="https://fritz-maker.github.io/cosmic-loops-fermi-paradox" class="shrine-button" onclick="event.stopPropagation(); navigateToLoop('Cosmic Loops', 'https://fritz-maker.github.io/cosmic-loops-fermi-paradox');">Search the Stars!</a>
+            </div>
+            
+            <div class="loop-shrine origin-loops" onclick="navigateToLoop('Origin Loops', 'https://fritz-maker.github.io/origin-loops')">
+                <div class="shrine-icon">✨</div>
+                <h3 class="shrine-title">ORIGIN LOOPS</h3>
+                <div class="shrine-vs">Origins & Beginnings</div>
+                <p class="shrine-essence"><strong>Creation vs Evolution!</strong> How did everything begin? Explore six scales of existence from cosmic genesis to this moment of questioning. Consciousness marvels at its own mysterious origins!</p>
+                <div class="shrine-koan">"Which origin story explains how you became able to wonder about origins?"</div>
+                <div class="shrine-location">fritz-maker.github.io/origin-loops</div>
+                <a href="https://fritz-maker.github.io/origin-loops" class="shrine-button" onclick="event.stopPropagation(); navigateToLoop('Origin Loops', 'https://fritz-maker.github.io/origin-loops');">Discover Origins!</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-taglines">
+            See the Frontier at ozzyrabbit.com | See the Frontier at unity-loops.com
+        </div>
+        <p class="footer-philosophy">
+            "It's Loops All the Way Down"
+        </p>
+        <div class="copyright-email">
+            <div class="copyright">© 2025 FRONTIER Platform - All Rights Reserved</div>
+            <div class="email">Contact: contact@unity-loops.com</div>
+        </div>
+    </footer>
+    
+    <script>
+        // Analytics-enhanced navigation function
+        function navigateToLoop(loopName, url) {
+            trackLoopNavigation(loopName, url);
+            setTimeout(() => {
+                window.open(url, '_blank');
+            }, 100); // Small delay to ensure analytics fires
+        }
+        
+        // Create mystical floating symbols
+        function createMysticalBackground() {
+            const bg = document.getElementById('mysticalBg');
+            const symbols = ['∞', '🌀', '✨', '🔄', '❓', '🎭', '🌉', '⚖️', '🌱', '🛸', '🔍'];
+            
+            for (let i = 0; i < 30; i++) {
+                const symbol = document.createElement('div');
+                symbol.className = 'floating-symbol';
+                symbol.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+                symbol.style.left = Math.random() * 100 + '%';
+                symbol.style.top = Math.random() * 100 + '%';
+                symbol.style.animationDelay = Math.random() * 20 + 's';
+                symbol.style.animationDuration = (15 + Math.random() * 10) + 's';
+                bg.appendChild(symbol);
+            }
+        }
+        
+        // Track page engagement
+        function trackEngagement() {
+            // Track time on page
+            let startTime = Date.now();
+            
+            window.addEventListener('beforeunload', function() {
+                let timeSpent = Math.round((Date.now() - startTime) / 1000);
+                gtag('event', 'hub_engagement', {
+                    'time_on_page': timeSpent,
+                    'page_title': 'FRONTIER Hub'
+                });
+            });
+            
+            // Track scroll depth
+            let maxScroll = 0;
+            window.addEventListener('scroll', function() {
+                let scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+                if (scrollPercent > maxScroll) {
+                    maxScroll = scrollPercent;
+                }
+            });
+            
+            // Track hover interactions
+            const shrines = document.querySelectorAll('.loop-shrine');
+            shrines.forEach((shrine, index) => {
+                shrine.addEventListener('mouseenter', function() {
+                    const loopName = this.querySelector('.shrine-title').textContent;
+                    gtag('event', 'shrine_hover', {
+                        'loop_name': loopName,
+                        'shrine_position': index + 1
+                    });
+                });
+            });
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            createMysticalBackground();
+            trackEngagement();
+            
+            // Enhanced hover effects with analytics
+            const shrines = document.querySelectorAll('.loop-shrine');
+            shrines.forEach(shrine => {
+                shrine.addEventListener('mouseenter', function() {
+                    this.style.boxShadow = '0 30px 60px rgba(212, 175, 55, 0.3)';
+                });
+                
+                shrine.addEventListener('mouseleave', function() {
+                    this.style.boxShadow = 'none';
+                });
+            });
+            
+            // Track hub load
+            gtag('event', 'hub_loaded', {
+                'timestamp': new Date().toISOString(),
+                'user_agent': navigator.userAgent.substring(0, 100)
+            });
+        });
+    </script>
+</body>
+</html>
