@@ -390,7 +390,7 @@ function handleStrangeLoop() {
                 </div>
                 
                 <div class="frontier-motto">
-                    <p>"It'\s Loops All the Way Down"</p>
+                    <p>"It\'s Loops All the Way Down"</p>
                 </div>
             </div>
         `;
